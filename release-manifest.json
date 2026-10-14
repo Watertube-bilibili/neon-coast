@@ -1,0 +1,598 @@
+{
+  "version": 1,
+  "originalSourceCommit": "7ea0b217fba1f40464b6f31bec3a236753c2f32d",
+  "formalVersion": "1.3.5",
+  "previewVersion": "1.5.1-preview",
+  "archives": [
+    {
+      "file": "neon-coast-formal-7ea0b21.zip",
+      "bytes": 9533623,
+      "sha256": "57e6ceab562666bb921290155d2689d1ada6ff149ad039049932a2b82cbcd0cd",
+      "files": 65
+    },
+    {
+      "file": "neon-coast-preview-7ea0b21.zip",
+      "bytes": 19070309,
+      "sha256": "6a55f388fbac7619010e8074d42b6275c75c66607157df0219c52e8907d596b3",
+      "files": 79
+    }
+  ],
+  "files": {
+    ".nojekyll": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "ASSET_CREDITS.txt": {
+      "bytes": 2443,
+      "sha256": "9c733604478a2f560de4706fbea61f2f9c3aa1f48aaa9f4f8874211eaadddc69"
+    },
+    "MIRROR-INFO.json": {
+      "bytes": 843,
+      "sha256": "c996170efeac61bb0b1d838af1832de53e45f373cdf0d4a933312edfb1d48df3"
+    },
+    "THIRD_PARTY_ASSETS.md": {
+      "bytes": 2443,
+      "sha256": "9c733604478a2f560de4706fbea61f2f9c3aa1f48aaa9f4f8874211eaadddc69"
+    },
+    "asset-car.js": {
+      "bytes": 8315,
+      "sha256": "38e9ea6b13ead819c7bd3931a5ef13321527f3e3cb348efab210141b7d22e833"
+    },
+    "assets/CC-BY-4.0.txt": {
+      "bytes": 13034,
+      "sha256": "c8041334a99cb48852b2139253cbde5f8ac87e27f124aed51223e0d5bf0080eb"
+    },
+    "assets/CarConcept-LICENSE.md": {
+      "bytes": 943,
+      "sha256": "e11477f29eab33d1a5c9fc8534f931556faeb2e11a7fee9e4723d917fcfaee50"
+    },
+    "assets/CarConcept-metadata.json": {
+      "bytes": 1334,
+      "sha256": "89555a6cb9dc0a4f300abe3cc6476c2d8d77c6f3f2cbde9bf790c1bd320027ed"
+    },
+    "assets/lucent-vision.glb": {
+      "bytes": 11758564,
+      "sha256": "2cf15ec58a0c51fa20def0e2e2b2d9197648c681dbf00afb18c86dbdcac24ab9"
+    },
+    "assist-settings.js": {
+      "bytes": 2894,
+      "sha256": "c6d9598cb6cb0159df582ac9719340a689320ed93af539cd0f8a011e8fee4b07"
+    },
+    "assist-status.js": {
+      "bytes": 1027,
+      "sha256": "ff81d9f9b131e518327562d1da5cbf6ce95b3c2234cd98bababb5cf9e4e98a4e"
+    },
+    "audio.js": {
+      "bytes": 1826,
+      "sha256": "d2a7c030ba795cce7099bb6792f9708e098715d7b17fc679e24d1dfef4e12653"
+    },
+    "brake-closeup.css": {
+      "bytes": 2260,
+      "sha256": "9d31848971f33a7c0193e4f3e29d13cc73a20278180ca2907e3901d64020374d"
+    },
+    "brake-closeup.js": {
+      "bytes": 6405,
+      "sha256": "cc6b436eec7eb1f61bcd83ee9d1707c1563f74bcf34a172a46e0d978e6f3ad40"
+    },
+    "brake-fault.js": {
+      "bytes": 3626,
+      "sha256": "790b31e9613a908ef62b33b1c4256b50032187ed793df2df4533690e0be0dcb4"
+    },
+    "cockpit.css": {
+      "bytes": 12609,
+      "sha256": "49d9f97c4a3868c08df5f00f527a26bd15bac2644a92dceefc2dd5e2e14bd071"
+    },
+    "cockpit.js": {
+      "bytes": 30133,
+      "sha256": "85af677e10b58daa7eb11872ecc90d3670decc1301f24d0e9a8b0c7072649c00"
+    },
+    "driving-assist.js": {
+      "bytes": 13701,
+      "sha256": "5c4dd83780b417b6429b5b5cfe0ea2cf685455478b7f79c4dd226da647830d96"
+    },
+    "entry-animation.js": {
+      "bytes": 11805,
+      "sha256": "bff2d80a9826bb4aa6252c35a1b58bf31b2b292976522c6549e5be1b929df261"
+    },
+    "flight-travel.js": {
+      "bytes": 3206,
+      "sha256": "35a8f9df7b02820efde5f495bbd3914bf4f17f2b9ebe1ab6aa960a3c79ad9c5b"
+    },
+    "game.js": {
+      "bytes": 68560,
+      "sha256": "8c1445c21e571b0069aa2176dd91293f25c77ce185bc5e2e6861d47cd4848f16"
+    },
+    "ground-contact.js": {
+      "bytes": 13103,
+      "sha256": "acbab580e83e8b3e1883c320827d8cc211734906f0d2f85285a376de9ef9397c"
+    },
+    "impact-damage.js": {
+      "bytes": 529,
+      "sha256": "db9f441934b0184780c96283979c0e1b8bf016c5339d26e92dbe753346d6a5af"
+    },
+    "index.html": {
+      "bytes": 9040,
+      "sha256": "c8a286d507da3577b7318fca50e138e40c4bea865e4bf58acb0420d85ca0f755"
+    },
+    "location-beacons.js": {
+      "bytes": 2893,
+      "sha256": "78d925d4084caa684ed23f3074b2eaa73f659894907ae02d229b34b8083895da"
+    },
+    "location-teleport.js": {
+      "bytes": 8999,
+      "sha256": "1b8be384e083da5d133ccffaae4e3b477f8ecd1f919313ca03d3c8aed43deb03"
+    },
+    "map-ui.css": {
+      "bytes": 2261,
+      "sha256": "5ade67d3d14a14e88ea99ba2af189e3da0bd284035ddd0f02575e966a17737ca"
+    },
+    "map-ui.js": {
+      "bytes": 15562,
+      "sha256": "fa7500bed01ad27cca8a134c66e39dfc5fe22a792b71aef978958af89d53b33e"
+    },
+    "mobile-ui.css": {
+      "bytes": 25897,
+      "sha256": "893ba1e74573555907d2158f9399b3b351457e76fa6af96ff6b7e08ab28ea321"
+    },
+    "mobile-ui.js": {
+      "bytes": 11006,
+      "sha256": "4008b93cb7dbff6823d6796c6d33123ad8397df0a75f5c2720c9a7556b996eb4"
+    },
+    "performance-profile.js": {
+      "bytes": 1787,
+      "sha256": "a97e209af8bf218217b199b04465d7ee94dd145ff8a4854b057d1b5ee3db1fa9"
+    },
+    "pilot-detour.js": {
+      "bytes": 2984,
+      "sha256": "b25ae1b72063da9cf1558d8c4d6cc2ac18a7e8ca1268525106432ac7d4fc59d9"
+    },
+    "pilot.js": {
+      "bytes": 26704,
+      "sha256": "c7565332210aef9854071f4d65362756ff29efffb167c3d6d1622a8addc0255b"
+    },
+    "population-stream.js": {
+      "bytes": 8760,
+      "sha256": "3b28757e6aff292f1a04c898b4af0c87e82c1bfbe9a4ed5adabca836145af92b"
+    },
+    "preview-1-5/ASSET_CREDITS.txt": {
+      "bytes": 3625,
+      "sha256": "134ae195685dc8e191fb642284ad32a01e147ce15edb34a4fe01c00bd76c4771"
+    },
+    "preview-1-5/THIRD_PARTY_ASSETS.md": {
+      "bytes": 3625,
+      "sha256": "134ae195685dc8e191fb642284ad32a01e147ce15edb34a4fe01c00bd76c4771"
+    },
+    "preview-1-5/aircraft-ui.css": {
+      "bytes": 3569,
+      "sha256": "f19bfcae4992c7b3e02b6d83534086cbec7d54259752fc67e7eaa23969612bb3"
+    },
+    "preview-1-5/aircraft-ui.js": {
+      "bytes": 4200,
+      "sha256": "5b87db19cd99bb2c18e2d114c70f2d2c7d01aca42a016ac9ce8427a719a529b5"
+    },
+    "preview-1-5/asset-car.js": {
+      "bytes": 8315,
+      "sha256": "38e9ea6b13ead819c7bd3931a5ef13321527f3e3cb348efab210141b7d22e833"
+    },
+    "preview-1-5/assets/CC-BY-4.0.txt": {
+      "bytes": 13034,
+      "sha256": "c8041334a99cb48852b2139253cbde5f8ac87e27f124aed51223e0d5bf0080eb"
+    },
+    "preview-1-5/assets/CarConcept-LICENSE.md": {
+      "bytes": 943,
+      "sha256": "e11477f29eab33d1a5c9fc8534f931556faeb2e11a7fee9e4723d917fcfaee50"
+    },
+    "preview-1-5/assets/CarConcept-metadata.json": {
+      "bytes": 1334,
+      "sha256": "89555a6cb9dc0a4f300abe3cc6476c2d8d77c6f3f2cbde9bf790c1bd320027ed"
+    },
+    "preview-1-5/assets/lucent-vision.glb": {
+      "bytes": 11758564,
+      "sha256": "2cf15ec58a0c51fa20def0e2e2b2d9197648c681dbf00afb18c86dbdcac24ab9"
+    },
+    "preview-1-5/assist-settings.js": {
+      "bytes": 2931,
+      "sha256": "b280d1f2d3bffb8ad4d5524f4fd2af6f8208092d0cdb73beeb358ccbb652e23e"
+    },
+    "preview-1-5/assist-status.js": {
+      "bytes": 1027,
+      "sha256": "ff81d9f9b131e518327562d1da5cbf6ce95b3c2234cd98bababb5cf9e4e98a4e"
+    },
+    "preview-1-5/audio.js": {
+      "bytes": 1826,
+      "sha256": "d2a7c030ba795cce7099bb6792f9708e098715d7b17fc679e24d1dfef4e12653"
+    },
+    "preview-1-5/autonomy-test-job.js": {
+      "bytes": 19822,
+      "sha256": "05d7af68b2dc5409221cfd30ed3bc8033115dd2a0ec7b95b0b876f5a772de16f"
+    },
+    "preview-1-5/brake-closeup.css": {
+      "bytes": 2260,
+      "sha256": "9d31848971f33a7c0193e4f3e29d13cc73a20278180ca2907e3901d64020374d"
+    },
+    "preview-1-5/brake-closeup.js": {
+      "bytes": 6405,
+      "sha256": "cc6b436eec7eb1f61bcd83ee9d1707c1563f74bcf34a172a46e0d978e6f3ad40"
+    },
+    "preview-1-5/brake-fault.js": {
+      "bytes": 3626,
+      "sha256": "790b31e9613a908ef62b33b1c4256b50032187ed793df2df4533690e0be0dcb4"
+    },
+    "preview-1-5/cockpit.css": {
+      "bytes": 12609,
+      "sha256": "49d9f97c4a3868c08df5f00f527a26bd15bac2644a92dceefc2dd5e2e14bd071"
+    },
+    "preview-1-5/cockpit.js": {
+      "bytes": 30179,
+      "sha256": "7190f668b2b21588130896543f48d4968e75d90237ff8342e556284e5c22261c"
+    },
+    "preview-1-5/driving-assist.js": {
+      "bytes": 13701,
+      "sha256": "5c4dd83780b417b6429b5b5cfe0ea2cf685455478b7f79c4dd226da647830d96"
+    },
+    "preview-1-5/entry-animation.js": {
+      "bytes": 11805,
+      "sha256": "bff2d80a9826bb4aa6252c35a1b58bf31b2b292976522c6549e5be1b929df261"
+    },
+    "preview-1-5/flight-travel.js": {
+      "bytes": 3347,
+      "sha256": "45b6d245030b47d4766dde281b5e4109a77b19f2d82352f80effd2ed7533a523"
+    },
+    "preview-1-5/flyable-aircraft.js": {
+      "bytes": 31205,
+      "sha256": "f36696a5a910f98a4b52261e17ae80ce2ec66bc0bf49fe40da8bf98da4ef9183"
+    },
+    "preview-1-5/game.js": {
+      "bytes": 74909,
+      "sha256": "cd0db51c4d0c0f488277297c174d5b955b7257623581b0df327223d0343a3b0a"
+    },
+    "preview-1-5/godot-physics.js": {
+      "bytes": 13677,
+      "sha256": "11b6f44a6f500c7f8c133572f40cc8aaa898928bd50e3a37e9d4d6680c0dc652"
+    },
+    "preview-1-5/ground-contact.js": {
+      "bytes": 13103,
+      "sha256": "acbab580e83e8b3e1883c320827d8cc211734906f0d2f85285a376de9ef9397c"
+    },
+    "preview-1-5/impact-damage.js": {
+      "bytes": 529,
+      "sha256": "db9f441934b0184780c96283979c0e1b8bf016c5339d26e92dbe753346d6a5af"
+    },
+    "preview-1-5/index.html": {
+      "bytes": 8959,
+      "sha256": "35b04f6404989dde66f1a93bbe5e9c2a0c11d568a49ad9b4e7d5737855ecef8e"
+    },
+    "preview-1-5/location-beacons.js": {
+      "bytes": 2893,
+      "sha256": "78d925d4084caa684ed23f3074b2eaa73f659894907ae02d229b34b8083895da"
+    },
+    "preview-1-5/location-teleport.js": {
+      "bytes": 9128,
+      "sha256": "d34b51aaf6dad281cf7a47bbc272bb927f581ca5999506c2154773ac9f6ac616"
+    },
+    "preview-1-5/map-ui.css": {
+      "bytes": 2261,
+      "sha256": "5ade67d3d14a14e88ea99ba2af189e3da0bd284035ddd0f02575e966a17737ca"
+    },
+    "preview-1-5/map-ui.js": {
+      "bytes": 15893,
+      "sha256": "c0d9f9cb68f91c5c1c96f05d28e3803642e0285a51749ef8fb3660bb507547a2"
+    },
+    "preview-1-5/mobile-ui.css": {
+      "bytes": 25897,
+      "sha256": "893ba1e74573555907d2158f9399b3b351457e76fa6af96ff6b7e08ab28ea321"
+    },
+    "preview-1-5/mobile-ui.js": {
+      "bytes": 11501,
+      "sha256": "cd3d4247ea19914fadce4b9212a98dc0f81cee05e8c20a4a01dd5bd52bd6c82e"
+    },
+    "preview-1-5/performance-profile.js": {
+      "bytes": 1845,
+      "sha256": "4d42625b1ef7801f7a8581bbf0f7fa5b3b7b3fdfd9fccfbd84a8056cc2c1257c"
+    },
+    "preview-1-5/physics/AUTHORS.md": {
+      "bytes": 10696,
+      "sha256": "2eb271244aea70a5818c6c004892a74eecc129aed84e97656d5563be3769f560"
+    },
+    "preview-1-5/physics/COPYRIGHT.txt": {
+      "bytes": 99790,
+      "sha256": "b3330849267d56ddd3d62a513817506606c2195034411fe05859f0140bff9d8a"
+    },
+    "preview-1-5/physics/LICENSE.txt": {
+      "bytes": 1149,
+      "sha256": "b0435e3b3e4e55238f05f4b306f30524a1b2e20147810d436eaa554fa6855c80"
+    },
+    "preview-1-5/physics/TRANSPORT-NOTICE.txt": {
+      "bytes": 359,
+      "sha256": "738843bc78650e869fcc713a29445510882f2369fd3a434ccab7b81cdec1dab2"
+    },
+    "preview-1-5/physics/manifest.json": {
+      "bytes": 2473,
+      "sha256": "be15f753b49ac91d425a4e8bf2f2fe2749fb9e505a549e7a1ebe6bf99ef4fe91"
+    },
+    "preview-1-5/physics/neon-physics.audio.position.worklet.js": {
+      "bytes": 2973,
+      "sha256": "be33985bc7160d6bf9646f259cd86b259cd67b02ccb297ee5c44f8ac84327bc8"
+    },
+    "preview-1-5/physics/neon-physics.audio.worklet.js": {
+      "bytes": 7298,
+      "sha256": "5b476a9c9ce642c0ee4256436d1bc31d9c38f868aca0f9a8e2a57c18d2dec2a3"
+    },
+    "preview-1-5/physics/neon-physics.js": {
+      "bytes": 317875,
+      "sha256": "a1b7d94c95d5789f1f08faee80ac7287928b7090d97eff1f0bc83e0fba5d97fd"
+    },
+    "preview-1-5/physics/neon-physics.pck": {
+      "bytes": 18980,
+      "sha256": "5c78a6ae87a3ebf150b12f3ff310cbb9cda93ce53d40abad7d16261a445b1582"
+    },
+    "preview-1-5/physics/neon-physics.wasm.gz": {
+      "bytes": 9382282,
+      "sha256": "9352825a316f4449b81d326706e78be95ed5a81c0e797f35879ef8b39bc505bd"
+    },
+    "preview-1-5/pilot-detour.js": {
+      "bytes": 2984,
+      "sha256": "b25ae1b72063da9cf1558d8c4d6cc2ac18a7e8ca1268525106432ac7d4fc59d9"
+    },
+    "preview-1-5/pilot.js": {
+      "bytes": 26704,
+      "sha256": "c7565332210aef9854071f4d65362756ff29efffb167c3d6d1622a8addc0255b"
+    },
+    "preview-1-5/population-stream.js": {
+      "bytes": 8760,
+      "sha256": "3b28757e6aff292f1a04c898b4af0c87e82c1bfbe9a4ed5adabca836145af92b"
+    },
+    "preview-1-5/preview-slots.js": {
+      "bytes": 9899,
+      "sha256": "f3eb7fb5bc6a5ca0c3d3f797c39d31375fdc157ccd35e3ba9958e2db67a8f3d3"
+    },
+    "preview-1-5/region-scenery.js": {
+      "bytes": 7805,
+      "sha256": "7c3855da4a80403f3a3699d64fb267ed45927eef97cd91d5463c061e2c6146f2"
+    },
+    "preview-1-5/regions.js": {
+      "bytes": 10533,
+      "sha256": "ef77c7def0164731478f5971beaeecc0ac3cd41ba72aa30d6920330b62d9e218"
+    },
+    "preview-1-5/release-notes.js": {
+      "bytes": 6124,
+      "sha256": "6bbc7022817adce92b4aba20edcb4cfe5ecbd5fdb0418b3e0b381924449d1efa"
+    },
+    "preview-1-5/release-ui.js": {
+      "bytes": 2279,
+      "sha256": "a95c5af7157047d226ba4490007e385b9a00c433f0f019662046cf53ab7edd8f"
+    },
+    "preview-1-5/render-motion.js": {
+      "bytes": 1686,
+      "sha256": "1a809875dd3480af29d59552df1e4f308eeb96bf768ce41ddb30dbf9c571aa92"
+    },
+    "preview-1-5/robotaxi.js": {
+      "bytes": 21418,
+      "sha256": "fbf00a2ccc041278590d2ca9c735b0da3719892b1887ec1ed89b7af4a29fc9c8"
+    },
+    "preview-1-5/route-view.js": {
+      "bytes": 1033,
+      "sha256": "d3d9acdb7d6157a0d474bf1b55c89fefffb02b464667eeb11db7698ff07630b6"
+    },
+    "preview-1-5/sensor.js": {
+      "bytes": 18625,
+      "sha256": "35d75d3c9af9fe654168cfb7260db14a0f6aa8d5b18596cae7be31d2d2b4f5c3"
+    },
+    "preview-1-5/showroom.css": {
+      "bytes": 8352,
+      "sha256": "569ad92cc4963755d68493dcda93b186b79398d685e76ab566babff50b1fa2d2"
+    },
+    "preview-1-5/showroom.html": {
+      "bytes": 2889,
+      "sha256": "543756c9a525a08d2f38e5753e811a313113d03c51b3c32838e621fa63e1c707"
+    },
+    "preview-1-5/showroom.js": {
+      "bytes": 11673,
+      "sha256": "a2066ae6c3ca9b37ecfa9e4460609cdefe2f3b7df69987063892d8506bc45fa6"
+    },
+    "preview-1-5/storage-keys.js": {
+      "bytes": 6661,
+      "sha256": "12aca7de124810274e485bf54fd09569a34c1429832ad2310d07fd67c51bba5a"
+    },
+    "preview-1-5/streaming-world.js": {
+      "bytes": 31010,
+      "sha256": "3b661c651a0b159c8601993bd857ba5b07fae6c64a5984d953fb713efaf5f663"
+    },
+    "preview-1-5/style.css": {
+      "bytes": 37992,
+      "sha256": "bb039b96cac118b8d723cab58c75ad838522f58a318096e24bb5f1a2daa5c965"
+    },
+    "preview-1-5/surface-layout.js": {
+      "bytes": 2647,
+      "sha256": "1ad1040d94fd7456f3196036802473d3d72cd38a99812ca8e495b5c37e88a57c"
+    },
+    "preview-1-5/touch-selection.js": {
+      "bytes": 1245,
+      "sha256": "81d3c3721ce6a36348b5e01c9a7eb44049e2e826820c4660d0550bcb88904e0f"
+    },
+    "preview-1-5/traffic-controller.js": {
+      "bytes": 3912,
+      "sha256": "6a3efe61dad105ddc54e9909edb2a3f569123387c688999dd580224385335d55"
+    },
+    "preview-1-5/ui.js": {
+      "bytes": 46557,
+      "sha256": "c2ca255c488eebfcc6fba4dd2596899424bb41817ea4b3b70e44767e706f86ae"
+    },
+    "preview-1-5/vehicle-catalog.js": {
+      "bytes": 4669,
+      "sha256": "f8e022ae78d2d6f6921bbb77a56471dceea44731baeed4a5e41096ebc219d69a"
+    },
+    "preview-1-5/vehicle-damage.js": {
+      "bytes": 29558,
+      "sha256": "305cdce8d069035681c14414572bd8a90173fdcd852043436d9adb5ab92eb51c"
+    },
+    "preview-1-5/vehicle-design.js": {
+      "bytes": 54518,
+      "sha256": "10ba30699f28e0614ae67fc2bd41aee02b22d3ea0c6a417040cf7cd7fff7814d"
+    },
+    "preview-1-5/vehicle-dynamics.js": {
+      "bytes": 14276,
+      "sha256": "66836579e04251f1aecf51b96632d7298967388dcf6b167291a66ae29b5a4bf3"
+    },
+    "preview-1-5/vehicle-environment.js": {
+      "bytes": 1663,
+      "sha256": "bc76ba38ebbe0d1b19d7bbba97a38b3c0fbf4d3d40bf1889902eafc984a30caf"
+    },
+    "preview-1-5/vehicle-instruments.js": {
+      "bytes": 6937,
+      "sha256": "ced124986f0dd47061f8f6c353202440d04628dfe3d098a31f95be83ad80e44b"
+    },
+    "preview-1-5/vehicle-physics.js": {
+      "bytes": 8623,
+      "sha256": "5f13f1ddc58a593d46795b1eb61aef1398f80073fe04e90d0ebb0afa4d0dac92"
+    },
+    "preview-1-5/vendor/BufferGeometryUtils.js": {
+      "bytes": 35551,
+      "sha256": "248b3e8420bd3de805ca01845c1b0cc62aa2766f3c56bdcead265e306f8e715c"
+    },
+    "preview-1-5/vendor/GLTFLoader.js": {
+      "bytes": 114744,
+      "sha256": "2904f2823e23d5bc1d64512bf4c0d777ac44d728d47c34a9e3d48ce8ef6b761d"
+    },
+    "preview-1-5/vendor/three-addons-LICENSE.txt": {
+      "bytes": 1081,
+      "sha256": "bfe119ea4fd413f5f7ca3fcd63adb0c4a073ed39daa2fe7d3e6b769e21272601"
+    },
+    "preview-1-5/vendor/three.core.js": {
+      "bytes": 1403455,
+      "sha256": "eb077d2417f61d3e6d9264c317cabc4ea35769ed6b0ab533067292a550784c20"
+    },
+    "preview-1-5/vendor/three.module.js": {
+      "bytes": 603113,
+      "sha256": "c8211c69345d2e9949dc7a8ac969380497aa0600a5a8ac6a459c8cd02dd9cb8a"
+    },
+    "preview-1-5/world.js": {
+      "bytes": 15835,
+      "sha256": "4851570b5d0e36341f240b20b328beb3901693de638e2353ba727f01290a22fc"
+    },
+    "preview-entry.css": {
+      "bytes": 3395,
+      "sha256": "be14506a89aeeefa118d7a1c07e58e9d3069318153b5cfd72fa1e3823547695c"
+    },
+    "preview-entry.js": {
+      "bytes": 7804,
+      "sha256": "c75dc75a8ab4eda53633743be343b6f5cab7ea509b884e4847126a1341e2967a"
+    },
+    "region-scenery.js": {
+      "bytes": 6855,
+      "sha256": "fa1cfd7177dd9cb530d287b87b9e857be1a21943eff5761efacbab64d2d7002f"
+    },
+    "regions.js": {
+      "bytes": 5653,
+      "sha256": "ad72f414ef4d458ca222701411dd574fa1b8f563209eafc3bce3615b533dc470"
+    },
+    "release-notes.js": {
+      "bytes": 4615,
+      "sha256": "bec0bb1b8956c4fe91e2e1311e9b510b7681cf22ec85e67abebeb79487a3f9cf"
+    },
+    "release-ui.js": {
+      "bytes": 1959,
+      "sha256": "002a17fb38409a7da70f809c818cee21192133aa97b76d55f130d251ad10e3d5"
+    },
+    "render-motion.js": {
+      "bytes": 1340,
+      "sha256": "1bf768d0b4a47e2c51ecc69e925dba59cef0a94f3a6d68e71305b141d86bfc80"
+    },
+    "robotaxi.js": {
+      "bytes": 21213,
+      "sha256": "90a23f8a0d53c99665229a3aad5d8dba85d7ff0d81c9ff39cf010152871e91f2"
+    },
+    "route-view.js": {
+      "bytes": 1033,
+      "sha256": "d3d9acdb7d6157a0d474bf1b55c89fefffb02b464667eeb11db7698ff07630b6"
+    },
+    "sensor.js": {
+      "bytes": 18625,
+      "sha256": "35d75d3c9af9fe654168cfb7260db14a0f6aa8d5b18596cae7be31d2d2b4f5c3"
+    },
+    "showroom.css": {
+      "bytes": 8352,
+      "sha256": "569ad92cc4963755d68493dcda93b186b79398d685e76ab566babff50b1fa2d2"
+    },
+    "showroom.html": {
+      "bytes": 2889,
+      "sha256": "543756c9a525a08d2f38e5753e811a313113d03c51b3c32838e621fa63e1c707"
+    },
+    "showroom.js": {
+      "bytes": 11673,
+      "sha256": "a2066ae6c3ca9b37ecfa9e4460609cdefe2f3b7df69987063892d8506bc45fa6"
+    },
+    "streaming-world.js": {
+      "bytes": 23108,
+      "sha256": "fae036881c7894813e55414dc8ed23260790bf675297bb98d00ac8e8097f6cb6"
+    },
+    "style.css": {
+      "bytes": 37992,
+      "sha256": "bb039b96cac118b8d723cab58c75ad838522f58a318096e24bb5f1a2daa5c965"
+    },
+    "touch-selection.js": {
+      "bytes": 1245,
+      "sha256": "81d3c3721ce6a36348b5e01c9a7eb44049e2e826820c4660d0550bcb88904e0f"
+    },
+    "traffic-controller.js": {
+      "bytes": 3912,
+      "sha256": "6a3efe61dad105ddc54e9909edb2a3f569123387c688999dd580224385335d55"
+    },
+    "ui.js": {
+      "bytes": 43486,
+      "sha256": "fb0497f63deee3673f41b93408df9b66f964465931228eeb2b3f5b6c963bd68e"
+    },
+    "vehicle-catalog.js": {
+      "bytes": 3319,
+      "sha256": "d78ebc7b77177cbae27f5f258d734e5cf9758035edaaf4b216b7ac19e99ce864"
+    },
+    "vehicle-damage.js": {
+      "bytes": 29558,
+      "sha256": "305cdce8d069035681c14414572bd8a90173fdcd852043436d9adb5ab92eb51c"
+    },
+    "vehicle-design.js": {
+      "bytes": 43446,
+      "sha256": "abbcf5a4aad69e7b779de1718b7e53d4841d9672c7d2afbca56a10edaff08189"
+    },
+    "vehicle-dynamics.js": {
+      "bytes": 13292,
+      "sha256": "8d6811c9acc103a52cde03fb01ab91ff30e002a4ccfd7425749685458db75963"
+    },
+    "vehicle-environment.js": {
+      "bytes": 1663,
+      "sha256": "bc76ba38ebbe0d1b19d7bbba97a38b3c0fbf4d3d40bf1889902eafc984a30caf"
+    },
+    "vehicle-instruments.js": {
+      "bytes": 6937,
+      "sha256": "ced124986f0dd47061f8f6c353202440d04628dfe3d098a31f95be83ad80e44b"
+    },
+    "vehicle-physics.js": {
+      "bytes": 8328,
+      "sha256": "81a843769385951e01d4a58059ebe5bc5c24f84cbb024da9ff774507f8f55b30"
+    },
+    "vendor/BufferGeometryUtils.js": {
+      "bytes": 35551,
+      "sha256": "248b3e8420bd3de805ca01845c1b0cc62aa2766f3c56bdcead265e306f8e715c"
+    },
+    "vendor/GLTFLoader.js": {
+      "bytes": 114744,
+      "sha256": "2904f2823e23d5bc1d64512bf4c0d777ac44d728d47c34a9e3d48ce8ef6b761d"
+    },
+    "vendor/three-addons-LICENSE.txt": {
+      "bytes": 1081,
+      "sha256": "bfe119ea4fd413f5f7ca3fcd63adb0c4a073ed39daa2fe7d3e6b769e21272601"
+    },
+    "vendor/three.core.js": {
+      "bytes": 1403455,
+      "sha256": "eb077d2417f61d3e6d9264c317cabc4ea35769ed6b0ab533067292a550784c20"
+    },
+    "vendor/three.module.js": {
+      "bytes": 603113,
+      "sha256": "c8211c69345d2e9949dc7a8ac969380497aa0600a5a8ac6a459c8cd02dd9cb8a"
+    },
+    "world.js": {
+      "bytes": 15160,
+      "sha256": "615c6ebeadff337b59cc3d0bc96a6d06d432b08a3fce8ee4da28e0cb06624e78"
+    }
+  }
+}
