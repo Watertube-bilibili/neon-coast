@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "originalSourceCommit": "b0f5100d8a22b8cb54f685196c4b7a410a96517d",
+  "originalSourceCommit": "57d02f618cf8c4e26a6338883900f68a4debf1a4",
   "formalVersion": "1.5 latest r9 + beta entry",
   "previewVersion": "2.0.0-beta.1 at /beta/",
   "archives": [
@@ -20,14 +20,14 @@
       "sha256": "20c913af683f7d8306f7c2ca731184d2ea12f1b2325089f984d1b69d24926c0f"
     },
     {
-      "file": "neon-coast-beta-hud-b0f5100-01.zip",
-      "bytes": 11194326,
-      "sha256": "c6d60f6882e9556d5ffa349bcb5a8679c52eca62b960c49ef3e312d16529cdd6"
+      "file": "neon-coast-beta-gear-57d02f6-01.zip",
+      "bytes": 11196675,
+      "sha256": "3766a7e40e910ddd7214dfc06d867a7d3b17603470ac7979ab2e3bbd3b5b23ec"
     },
     {
-      "file": "neon-coast-beta-hud-b0f5100-02.zip",
-      "bytes": 9968267,
-      "sha256": "c7e2d020f79fd353b7c42db8c9f9fe401814b283e5bb7c3e5326e3b3aed79ebd"
+      "file": "neon-coast-beta-gear-57d02f6-02.zip",
+      "bytes": 9968307,
+      "sha256": "04ff70a8e6220dd6c3d9e5252da14d427fb9cac4ce69d63cafb67f48aaf9fd36"
     },
     {
       "file": "neon-coast-beta1-delta-64961ba-03.zip",
@@ -35,9 +35,9 @@
       "sha256": "b13f4224144c2a843f36f6b554de9dd21c656765857bd711b4969085f7067d8a"
     },
     {
-      "file": "neon-coast-ui-preview-32115f3.zip",
-      "bytes": 78305,
-      "sha256": "299bbaddcfba231169ad3c271b38071acd32f5d575e8ed3e7c6d7dcb2cf44af1"
+      "file": "neon-coast-beta-gear-57d02f6-03.zip",
+      "bytes": 82923,
+      "sha256": "5ee2aae90adfa205e0aecb8a22288359448655da1ee8e993480c3ba0eda4fc8c"
     }
   ],
   "files": {
@@ -234,8 +234,8 @@
       "sha256": "5c4dd83780b417b6429b5b5cfe0ea2cf685455478b7f79c4dd226da647830d96"
     },
     "beta/play/driving-hud.css": {
-      "bytes": 14530,
-      "sha256": "a03cdac029f9af33016715e026085f09de6388ce9844e4cfeef3038f2f9469e6"
+      "bytes": 17285,
+      "sha256": "4e49f4a85978413234dbb8777f131ee965ffc88c3730abea0e007cdddefd4d5a"
     },
     "beta/play/entry-animation.js": {
       "bytes": 11805,
@@ -266,8 +266,8 @@
       "sha256": "8b110233010630787be38346f22cf7d63a77860744e0b12f6213c7e62a057f0c"
     },
     "beta/play/game.js": {
-      "bytes": 79009,
-      "sha256": "4392f9fd5c5efe61e40de52c75016a603e4051c179c8b26e86887a784f4e60ef"
+      "bytes": 79210,
+      "sha256": "9d1419d12109422fcfa3b512bacd4b07423ee62f737c2fbfcf50735db96aaa7b"
     },
     "beta/play/godot-physics.js": {
       "bytes": 18338,
@@ -310,8 +310,8 @@
       "sha256": "314e75bbee622011817ed55f5282b339ed51ee6f71b89cf0398e488c98cbd143"
     },
     "beta/play/mobile-ui.js": {
-      "bytes": 23926,
-      "sha256": "b1040fc04088cdb950ac5c9b1903c280b09b8e89ed4f412d01c5195c49abae69"
+      "bytes": 26698,
+      "sha256": "3e828deb99d885fd49e2e4309b47134514d0d8aa73b72b6281a1be3e08373589"
     },
     "beta/play/mountain-barriers.js": {
       "bytes": 1416,
@@ -497,13 +497,17 @@
       "bytes": 1245,
       "sha256": "81d3c3721ce6a36348b5e01c9a7eb44049e2e826820c4660d0550bcb88904e0f"
     },
+    "beta/play/touch-transmission.js": {
+      "bytes": 2007,
+      "sha256": "b27479101147500a5f10e096dc01b21d3dd9da25473e3a41b2a4174a9ed1ab4e"
+    },
     "beta/play/traffic-controller.js": {
       "bytes": 3912,
       "sha256": "6a3efe61dad105ddc54e9909edb2a3f569123387c688999dd580224385335d55"
     },
     "beta/play/ui.js": {
-      "bytes": 46974,
-      "sha256": "b289749724b637f8f740fa00b2bfdd826c2afe59f66f33da01b298bbbfcbd8d2"
+      "bytes": 47125,
+      "sha256": "c41c746715124b0489604e1222f5d180b16e378070d02f62e65ccee08b97aaf6"
     },
     "beta/play/vehicle-asset-flow.js": {
       "bytes": 1866,
@@ -570,8 +574,8 @@
       "sha256": "e33a78239bc9241f4e30d0adef110a4d9fc1ce4d7db2e3338e643269481d169d"
     },
     "beta/ui-preview/index.html": {
-      "bytes": 382347,
-      "sha256": "32115f350f220bd5f0647392302c14b3cd644c0f292b58388d9654f8c70ac96e"
+      "bytes": 398643,
+      "sha256": "7e922b55490c96a8b118ee61a31ebd06755b2ee7477a36b9e08b2835d3dd3693"
     },
     "beta-release-revision.json": {
       "bytes": 458,
