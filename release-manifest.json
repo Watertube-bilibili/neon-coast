@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "originalSourceCommit": "aba1ea3f135ce4d2946dde36bfe23cc6e53fab63",
+  "originalSourceCommit": "8e6f24588646fb2fd34ef8b8604a9a6b09dfb936",
   "formalVersion": "1.5 latest r9 + beta entry",
   "previewVersion": "2.0.0-beta.1 at /beta/",
   "archives": [
@@ -20,14 +20,14 @@
       "sha256": "20c913af683f7d8306f7c2ca731184d2ea12f1b2325089f984d1b69d24926c0f"
     },
     {
-      "file": "neon-coast-beta-lazy-aba1ea3-01.zip",
-      "bytes": 11197074,
-      "sha256": "0f0d07cc44600d3b2a6097f2b7f837738cc3a0b451e1449041b25ca321277fa6"
+      "file": "neon-coast-beta-fullui-8e6f245-01.zip",
+      "bytes": 11205656,
+      "sha256": "e072c5910cadedcfa2fd50a1c58e17d588e96b2a838233d4070c90dbe012c360"
     },
     {
-      "file": "neon-coast-beta-lazy-aba1ea3-02.zip",
-      "bytes": 9968187,
-      "sha256": "2e89082899d26cb6cc8e2ed1a68a4ae3e51e90ea012bef5a6f3e47a7e4ef7b54"
+      "file": "neon-coast-beta-fullui-8e6f245-02.zip",
+      "bytes": 9968255,
+      "sha256": "470aaa35b00f873efccb6049f3db9bbb05be4bfec9f0d063d1874d12a5f1f43f"
     },
     {
       "file": "neon-coast-beta1-delta-64961ba-03.zip",
@@ -35,9 +35,9 @@
       "sha256": "b13f4224144c2a843f36f6b554de9dd21c656765857bd711b4969085f7067d8a"
     },
     {
-      "file": "neon-coast-interface-preview-e8c9faf.zip",
-      "bytes": 802325,
-      "sha256": "07beaaf0e263f948c6d4593141acd9d062e1def9ab1ce2c84129cfc3aac39474"
+      "file": "neon-coast-beta-fullui-8e6f245-03.zip",
+      "bytes": 805727,
+      "sha256": "0666cd26a7cbc93f73b8385cd882d9b04093aea8a34d1d3329fbbfa012e585ab"
     }
   ],
   "files": {
@@ -82,16 +82,16 @@
       "sha256": "d2a7c030ba795cce7099bb6792f9708e098715d7b17fc679e24d1dfef4e12653"
     },
     "beta/beta-launcher.css": {
-      "bytes": 1669,
-      "sha256": "1ddfd8aa16765af1dec684b28c86d66ff4ab87a3457c0e243c46bc4210a1461a"
+      "bytes": 4939,
+      "sha256": "7345a8a62e73141f565fef3ec011c2dc2cfaaf503010ed67e97fc07bb31bae10"
     },
     "beta/beta-launcher.js": {
       "bytes": 3543,
       "sha256": "2a86829eb8d29ba8c5ba9945a65060fe5fe601fd7301aa1a6281f881c8b0fd98"
     },
     "beta/index.html": {
-      "bytes": 1770,
-      "sha256": "9e13e011b6272e24a9afd265b7f2154aaecf950caa9abe66230598d8cec6ecc9"
+      "bytes": 2836,
+      "sha256": "0b3c8716f3b40a9e9550cb638af3246f795914dc8ac5985cb80bb7b7d6100be0"
     },
     "beta/play/ASSET_CREDITS.txt": {
       "bytes": 3625,
@@ -286,8 +286,16 @@
       "sha256": "75d7d9a8970ff97b60a71581c781ee17f6f5d05fcb6f90e6980cc4a8aeae8f08"
     },
     "beta/play/index.html": {
-      "bytes": 9196,
-      "sha256": "ef378e171691f5d4040725bb4ccf8811ffda556eb458fb7c4fbb44f16649e5ea"
+      "bytes": 9310,
+      "sha256": "d66b57eb7bbaf44ea8b7bd542083e053cf12ccad756aff1aea5cfcde86549a42"
+    },
+    "beta/play/interface-system.css": {
+      "bytes": 19154,
+      "sha256": "88f3c8b30c84af8050ec91863f98c413fe7ac5efba72d4cc229f254c78692263"
+    },
+    "beta/play/interface-system.js": {
+      "bytes": 6899,
+      "sha256": "b1584f4272689dfa1e89a8c4871b57a57d958899bda9bc070ee108073d3b552c"
     },
     "beta/play/loading-progress.js": {
       "bytes": 514,
@@ -466,12 +474,12 @@
       "sha256": "35d75d3c9af9fe654168cfb7260db14a0f6aa8d5b18596cae7be31d2d2b4f5c3"
     },
     "beta/play/showroom.css": {
-      "bytes": 8352,
-      "sha256": "569ad92cc4963755d68493dcda93b186b79398d685e76ab566babff50b1fa2d2"
+      "bytes": 9821,
+      "sha256": "97fdc6f2fbefa7544c36eee570a21867b00496b9546b51fef4c05257be6665a5"
     },
     "beta/play/showroom.html": {
-      "bytes": 2889,
-      "sha256": "543756c9a525a08d2f38e5753e811a313113d03c51b3c32838e621fa63e1c707"
+      "bytes": 2883,
+      "sha256": "3da2035a640991e20091d3f8557078f62dfea6fb72e3cd681c25f393fb745f8d"
     },
     "beta/play/showroom.js": {
       "bytes": 12544,
@@ -574,6 +582,398 @@
       "sha256": "c8211c69345d2e9949dc7a8ac969380497aa0600a5a8ac6a459c8cd02dd9cb8a"
     },
     "beta/play/world.js": {
+      "bytes": 16409,
+      "sha256": "cea27bf7058e6614f663e342672b21f340d055b3e03806055d62d397d7f052ad"
+    },
+    "beta/ui-preview/fixture.js": {
+      "bytes": 9156,
+      "sha256": "ec6aa2242382097370b445147a7d4c3f7057911f7f0a7132b1f22d182f66567d"
+    },
+    "beta/ui-preview/index.html": {
+      "bytes": 5546,
+      "sha256": "16aa7401fcd1382a1c3ff710ad746a868b3a32761fe210ded8e6b36a2f4385cf"
+    },
+    "beta/ui-preview/manifest.json": {
+      "bytes": 11303,
+      "sha256": "627424b3945a46c1e711431478a8ae68f5c103809df6800e799b8a579ef31ae9"
+    },
+    "beta/ui-preview/runtime/ASSET_CREDITS.txt": {
+      "bytes": 3625,
+      "sha256": "134ae195685dc8e191fb642284ad32a01e147ce15edb34a4fe01c00bd76c4771"
+    },
+    "beta/ui-preview/runtime/aircraft-ui.css": {
+      "bytes": 3569,
+      "sha256": "f19bfcae4992c7b3e02b6d83534086cbec7d54259752fc67e7eaa23969612bb3"
+    },
+    "beta/ui-preview/runtime/aircraft-ui.js": {
+      "bytes": 4200,
+      "sha256": "5b87db19cd99bb2c18e2d114c70f2d2c7d01aca42a016ac9ce8427a719a529b5"
+    },
+    "beta/ui-preview/runtime/asset-car.js": {
+      "bytes": 8599,
+      "sha256": "bd1fe9908924d9fc29b776a7edb27bc06758d69671f65f42ba1bd680f4adec8e"
+    },
+    "beta/ui-preview/runtime/assets/g9/g9-display-art.js": {
+      "bytes": 2898,
+      "sha256": "67c581b605fb461bdd2101ecc580cec4cfb647f7ef296f994d2c8f51658cbc3b"
+    },
+    "beta/ui-preview/runtime/assets/g9/g9-materials.js": {
+      "bytes": 1475,
+      "sha256": "c80772797a5b16fecf0296c21c5dd7466a55d6093e5c9dc4dd4239073dbe4fe3"
+    },
+    "beta/ui-preview/runtime/assist-settings.js": {
+      "bytes": 2931,
+      "sha256": "b280d1f2d3bffb8ad4d5524f4fd2af6f8208092d0cdb73beeb358ccbb652e23e"
+    },
+    "beta/ui-preview/runtime/assist-status.js": {
+      "bytes": 1027,
+      "sha256": "ff81d9f9b131e518327562d1da5cbf6ce95b3c2234cd98bababb5cf9e4e98a4e"
+    },
+    "beta/ui-preview/runtime/audio.js": {
+      "bytes": 1826,
+      "sha256": "d2a7c030ba795cce7099bb6792f9708e098715d7b17fc679e24d1dfef4e12653"
+    },
+    "beta/ui-preview/runtime/autonomy-test-job.js": {
+      "bytes": 19822,
+      "sha256": "05d7af68b2dc5409221cfd30ed3bc8033115dd2a0ec7b95b0b876f5a772de16f"
+    },
+    "beta/ui-preview/runtime/axle-fault.js": {
+      "bytes": 3943,
+      "sha256": "1feb3541ffbeb9163a74bca92fb0c907d035bcbc3c6d01d3f4385d461bb0c2af"
+    },
+    "beta/ui-preview/runtime/beta-runtime-entry.js": {
+      "bytes": 2972,
+      "sha256": "55f72c3220ed26137bb2b4ab29b4af69f6ebd57c623052d71acb17b1e06840c4"
+    },
+    "beta/ui-preview/runtime/beta-runtime.css": {
+      "bytes": 337,
+      "sha256": "1779d344ee6a39a1bd225093a74561ae7694ed22a4d43e89ece9264ad27c8959"
+    },
+    "beta/ui-preview/runtime/beta-save-slots.js": {
+      "bytes": 15553,
+      "sha256": "b2aed628f7a0c1cf4b79d2df954705be96a41e0e138ea8a17966ceed38eefa3c"
+    },
+    "beta/ui-preview/runtime/brake-closeup.css": {
+      "bytes": 2260,
+      "sha256": "9d31848971f33a7c0193e4f3e29d13cc73a20278180ca2907e3901d64020374d"
+    },
+    "beta/ui-preview/runtime/brake-closeup.js": {
+      "bytes": 6405,
+      "sha256": "cc6b436eec7eb1f61bcd83ee9d1707c1563f74bcf34a172a46e0d978e6f3ad40"
+    },
+    "beta/ui-preview/runtime/brake-fault.js": {
+      "bytes": 3626,
+      "sha256": "790b31e9613a908ef62b33b1c4256b50032187ed793df2df4533690e0be0dcb4"
+    },
+    "beta/ui-preview/runtime/cockpit.css": {
+      "bytes": 12609,
+      "sha256": "49d9f97c4a3868c08df5f00f527a26bd15bac2644a92dceefc2dd5e2e14bd071"
+    },
+    "beta/ui-preview/runtime/cockpit.js": {
+      "bytes": 30179,
+      "sha256": "7190f668b2b21588130896543f48d4968e75d90237ff8342e556284e5c22261c"
+    },
+    "beta/ui-preview/runtime/driving-assist.js": {
+      "bytes": 13701,
+      "sha256": "5c4dd83780b417b6429b5b5cfe0ea2cf685455478b7f79c4dd226da647830d96"
+    },
+    "beta/ui-preview/runtime/driving-hud.css": {
+      "bytes": 17285,
+      "sha256": "4e49f4a85978413234dbb8777f131ee965ffc88c3730abea0e007cdddefd4d5a"
+    },
+    "beta/ui-preview/runtime/entry-animation.js": {
+      "bytes": 11805,
+      "sha256": "bff2d80a9826bb4aa6252c35a1b58bf31b2b292976522c6549e5be1b929df261"
+    },
+    "beta/ui-preview/runtime/flight-travel.js": {
+      "bytes": 4641,
+      "sha256": "9ec62b57456535227602489e0f78d0c63a3f4c8632f4d6a6fa919ebb7fa16aa6"
+    },
+    "beta/ui-preview/runtime/flyable-aircraft.js": {
+      "bytes": 31205,
+      "sha256": "f36696a5a910f98a4b52261e17ae80ce2ec66bc0bf49fe40da8bf98da4ef9183"
+    },
+    "beta/ui-preview/runtime/g9-asset.js": {
+      "bytes": 1494,
+      "sha256": "741d30d8d2fc0ddd37d330b78ab1fdab8c78666d612881061021552bd459530d"
+    },
+    "beta/ui-preview/runtime/g9-displays.js": {
+      "bytes": 1843,
+      "sha256": "fff950ef6fe11f4c55148c7f2611d234e978ea229c8aea669bb3a52e73598919"
+    },
+    "beta/ui-preview/runtime/g9-navigation.js": {
+      "bytes": 9018,
+      "sha256": "afbf87b69c5cf357740605adda83fbd211200d20be629b2f22439bf7c6769eac"
+    },
+    "beta/ui-preview/runtime/g9-vehicle.js": {
+      "bytes": 5985,
+      "sha256": "8b110233010630787be38346f22cf7d63a77860744e0b12f6213c7e62a057f0c"
+    },
+    "beta/ui-preview/runtime/game.js": {
+      "bytes": 79002,
+      "sha256": "581ab7a9dd6c50f9aef5b551202b7ceeb1daf73824731678ff39a6ca7476a4a1"
+    },
+    "beta/ui-preview/runtime/godot-physics.js": {
+      "bytes": 18338,
+      "sha256": "79f242ae97089fa87445e1c8d7d76afb30014224e4d359bd6a4c6e98a93f2fde"
+    },
+    "beta/ui-preview/runtime/ground-contact.js": {
+      "bytes": 13103,
+      "sha256": "acbab580e83e8b3e1883c320827d8cc211734906f0d2f85285a376de9ef9397c"
+    },
+    "beta/ui-preview/runtime/impact-damage.js": {
+      "bytes": 4515,
+      "sha256": "75d7d9a8970ff97b60a71581c781ee17f6f5d05fcb6f90e6980cc4a8aeae8f08"
+    },
+    "beta/ui-preview/runtime/index.html": {
+      "bytes": 9190,
+      "sha256": "714f08b2a1bd6a80876831d296c5d87c1b28fcf6b290df8ce8eef151489eaea5"
+    },
+    "beta/ui-preview/runtime/interface-system.css": {
+      "bytes": 19154,
+      "sha256": "88f3c8b30c84af8050ec91863f98c413fe7ac5efba72d4cc229f254c78692263"
+    },
+    "beta/ui-preview/runtime/interface-system.js": {
+      "bytes": 6899,
+      "sha256": "b1584f4272689dfa1e89a8c4871b57a57d958899bda9bc070ee108073d3b552c"
+    },
+    "beta/ui-preview/runtime/loading-progress.js": {
+      "bytes": 514,
+      "sha256": "97a7326e32aeb39c4b82e3bf217da411470e63191fbd7dfde05cd4acda73e0f3"
+    },
+    "beta/ui-preview/runtime/location-beacons.js": {
+      "bytes": 2893,
+      "sha256": "78d925d4084caa684ed23f3074b2eaa73f659894907ae02d229b34b8083895da"
+    },
+    "beta/ui-preview/runtime/location-teleport.js": {
+      "bytes": 9128,
+      "sha256": "d34b51aaf6dad281cf7a47bbc272bb927f581ca5999506c2154773ac9f6ac616"
+    },
+    "beta/ui-preview/runtime/map-ui.css": {
+      "bytes": 5224,
+      "sha256": "a437af6298467841cfd1743e789c84a5f35089f07fc109594eb463b10cd118e6"
+    },
+    "beta/ui-preview/runtime/map-ui.js": {
+      "bytes": 17203,
+      "sha256": "5f5ddf62cf2d7bb4f51aa3825dafbe65374852a2dcc4d4508511689a2a68a841"
+    },
+    "beta/ui-preview/runtime/mobile-ui.css": {
+      "bytes": 47644,
+      "sha256": "314e75bbee622011817ed55f5282b339ed51ee6f71b89cf0398e488c98cbd143"
+    },
+    "beta/ui-preview/runtime/mobile-ui.js": {
+      "bytes": 26698,
+      "sha256": "3e828deb99d885fd49e2e4309b47134514d0d8aa73b72b6281a1be3e08373589"
+    },
+    "beta/ui-preview/runtime/mountain-barriers.js": {
+      "bytes": 1416,
+      "sha256": "dc826dcef12ab68db820a2d06459883aac903d44ecdc18abe5f8317464321795"
+    },
+    "beta/ui-preview/runtime/navigation-guidance.js": {
+      "bytes": 6095,
+      "sha256": "213bebd410e43156dc410a302c7682747a85154f4ba33aab6a6da5e6983153a0"
+    },
+    "beta/ui-preview/runtime/navigation-ui.css": {
+      "bytes": 6923,
+      "sha256": "0afda63f38c00855d03dbfad5b2838de5d2b3b5f671a787b86f72e62af4f5ac9"
+    },
+    "beta/ui-preview/runtime/navigation-ui.js": {
+      "bytes": 5441,
+      "sha256": "b52700108607200e8ad8c5e24dfcd719d578fbfa6fa4c0aceec5afbec1afccd6"
+    },
+    "beta/ui-preview/runtime/neon-icon.svg": {
+      "bytes": 273,
+      "sha256": "d9121caf3438ca25dd0318a8f3630f02fccfa755a05eea11e8aed441e4c36bae"
+    },
+    "beta/ui-preview/runtime/performance-profile.js": {
+      "bytes": 1845,
+      "sha256": "4d42625b1ef7801f7a8581bbf0f7fa5b3b7b3fdfd9fccfbd84a8056cc2c1257c"
+    },
+    "beta/ui-preview/runtime/physics-surfaces.js": {
+      "bytes": 3371,
+      "sha256": "dd2908d2b5b24bba3f8abbfa5d02854016b191dccaf4182b29fa799a0db07691"
+    },
+    "beta/ui-preview/runtime/pilot-detour.js": {
+      "bytes": 2984,
+      "sha256": "b25ae1b72063da9cf1558d8c4d6cc2ac18a7e8ca1268525106432ac7d4fc59d9"
+    },
+    "beta/ui-preview/runtime/pilot.js": {
+      "bytes": 26704,
+      "sha256": "c7565332210aef9854071f4d65362756ff29efffb167c3d6d1622a8addc0255b"
+    },
+    "beta/ui-preview/runtime/population-stream.js": {
+      "bytes": 8853,
+      "sha256": "a2d15ca504d6480d36e8c75dd350cc48d3ce90cd54bc814333e7433bdba50c89"
+    },
+    "beta/ui-preview/runtime/preview-slots.js": {
+      "bytes": 9899,
+      "sha256": "f3eb7fb5bc6a5ca0c3d3f797c39d31375fdc157ccd35e3ba9958e2db67a8f3d3"
+    },
+    "beta/ui-preview/runtime/region-scenery.js": {
+      "bytes": 9128,
+      "sha256": "559fe50fd6ac34b29e6bcc7885d7ebaf612dd772acd5f92a4ff2d5bb7f054544"
+    },
+    "beta/ui-preview/runtime/regions.js": {
+      "bytes": 10533,
+      "sha256": "ef77c7def0164731478f5971beaeecc0ac3cd41ba72aa30d6920330b62d9e218"
+    },
+    "beta/ui-preview/runtime/release-notes.js": {
+      "bytes": 8652,
+      "sha256": "fdfc5d999dbab3c093bdc9e9c59ffcacfe6c8214362cf426a392b3542d92be12"
+    },
+    "beta/ui-preview/runtime/release-ui.js": {
+      "bytes": 2320,
+      "sha256": "e73c557bbc77e67542d08c55001d99b33cd1737c3fbdcc54f140aeda030a4d6e"
+    },
+    "beta/ui-preview/runtime/render-motion.js": {
+      "bytes": 3613,
+      "sha256": "9734ed7ba7a4a0ae4d5e5b3a049086b6c13e36966a7938f4da3617a9e987ce9a"
+    },
+    "beta/ui-preview/runtime/roadster-asset.js": {
+      "bytes": 6878,
+      "sha256": "1e36d5be480b1b8ae3e38a58146ede268c69463d9adc0c4ca3ef65c9eb238186"
+    },
+    "beta/ui-preview/runtime/roadster-controls.js": {
+      "bytes": 12963,
+      "sha256": "c297f0fa9a923af77fb26c011096dc36c266f5c2ad8d7d6addf680ea1b63b4c8"
+    },
+    "beta/ui-preview/runtime/roadster-displays.js": {
+      "bytes": 12540,
+      "sha256": "abde1b5ec05a1167894c13503cd943da69ef64ab55546bf0507477c9d94a33de"
+    },
+    "beta/ui-preview/runtime/roadster-jets.js": {
+      "bytes": 9394,
+      "sha256": "f9547163539d74e1e5c1a99068ef6b997129732ed96dd8eaeada9058ff32639a"
+    },
+    "beta/ui-preview/runtime/roadster-ui.css": {
+      "bytes": 8782,
+      "sha256": "706880222d41ad79b748882e8e4180f36f57a3d88dcca18389dbffe0e5026c7e"
+    },
+    "beta/ui-preview/runtime/roadster-ui.js": {
+      "bytes": 8871,
+      "sha256": "8b8ab0d37992a845de01978cf67dec10d02dd62c3ce7c36a9d1732d91043f7bc"
+    },
+    "beta/ui-preview/runtime/roadster-vehicle.js": {
+      "bytes": 1493,
+      "sha256": "8932d96570331547038af1e0906b2f56e188c60b71dfdcddc58150229504ca0f"
+    },
+    "beta/ui-preview/runtime/robotaxi.js": {
+      "bytes": 21418,
+      "sha256": "fbf00a2ccc041278590d2ca9c735b0da3719892b1887ec1ed89b7af4a29fc9c8"
+    },
+    "beta/ui-preview/runtime/route-view.js": {
+      "bytes": 1033,
+      "sha256": "d3d9acdb7d6157a0d474bf1b55c89fefffb02b464667eeb11db7698ff07630b6"
+    },
+    "beta/ui-preview/runtime/save-validation.js": {
+      "bytes": 5156,
+      "sha256": "6e77cd5d9b8811245211b6d1ccb7f5c4bcb210b1d301a2eb90dd89bd2a36bdf7"
+    },
+    "beta/ui-preview/runtime/sensor.js": {
+      "bytes": 18625,
+      "sha256": "35d75d3c9af9fe654168cfb7260db14a0f6aa8d5b18596cae7be31d2d2b4f5c3"
+    },
+    "beta/ui-preview/runtime/showroom.css": {
+      "bytes": 9821,
+      "sha256": "97fdc6f2fbefa7544c36eee570a21867b00496b9546b51fef4c05257be6665a5"
+    },
+    "beta/ui-preview/runtime/showroom.js": {
+      "bytes": 12544,
+      "sha256": "76d12d5648c3ca8b7473e067baff8e2ade63d4aceccf65e8aacf8cbcdb7c16e2"
+    },
+    "beta/ui-preview/runtime/standard-save-keys.js": {
+      "bytes": 515,
+      "sha256": "6841b883df448fe54f63aff19cbe877f9c4f30b65db5b69f39a392d5609bb02f"
+    },
+    "beta/ui-preview/runtime/storage-keys.js": {
+      "bytes": 2102,
+      "sha256": "a3f1196b55961ae56e0965bef9351a8ac3044c2a032adf5a599c9bca6b7fe832"
+    },
+    "beta/ui-preview/runtime/streaming-world.js": {
+      "bytes": 31981,
+      "sha256": "fc9a54850cb1ab3b43e4f71764e8b2623a6e337d9f7e9139737575c153db577a"
+    },
+    "beta/ui-preview/runtime/style.css": {
+      "bytes": 37989,
+      "sha256": "23dae1d3e9b27eae51496f6a3159dafcda2ce42eb6ea852079f350f8f405a7d1"
+    },
+    "beta/ui-preview/runtime/surface-layout.js": {
+      "bytes": 2647,
+      "sha256": "1ad1040d94fd7456f3196036802473d3d72cd38a99812ca8e495b5c37e88a57c"
+    },
+    "beta/ui-preview/runtime/touch-selection.js": {
+      "bytes": 1245,
+      "sha256": "81d3c3721ce6a36348b5e01c9a7eb44049e2e826820c4660d0550bcb88904e0f"
+    },
+    "beta/ui-preview/runtime/touch-transmission.js": {
+      "bytes": 2007,
+      "sha256": "b27479101147500a5f10e096dc01b21d3dd9da25473e3a41b2a4174a9ed1ab4e"
+    },
+    "beta/ui-preview/runtime/traffic-controller.js": {
+      "bytes": 3912,
+      "sha256": "6a3efe61dad105ddc54e9909edb2a3f569123387c688999dd580224385335d55"
+    },
+    "beta/ui-preview/runtime/ui.js": {
+      "bytes": 47125,
+      "sha256": "c41c746715124b0489604e1222f5d180b16e378070d02f62e65ccee08b97aaf6"
+    },
+    "beta/ui-preview/runtime/vehicle-asset-flow.js": {
+      "bytes": 1866,
+      "sha256": "e496d59be64cc15ea2e4098106dfa7d723ac9bf693440b82e4bf9a53460f403e"
+    },
+    "beta/ui-preview/runtime/vehicle-asset-registry.js": {
+      "bytes": 2371,
+      "sha256": "527b7a6a93e224b02a92c949988277441080e519553b1938febb2a49fb96a400"
+    },
+    "beta/ui-preview/runtime/vehicle-catalog.js": {
+      "bytes": 6154,
+      "sha256": "04e4c1d1ee9875e08a899c924360be14d693f28439a4ac09c5657cc177b57833"
+    },
+    "beta/ui-preview/runtime/vehicle-damage.js": {
+      "bytes": 30087,
+      "sha256": "5e102b2ae5e5d2bc92757ba34368db32fcecd5f75458b12fdb8ac7f977d5050a"
+    },
+    "beta/ui-preview/runtime/vehicle-design.js": {
+      "bytes": 63477,
+      "sha256": "8cc8490ff273fe0fd30b295e3d3342d37a728dbd54f4d8abfcf2b3ca99bee82b"
+    },
+    "beta/ui-preview/runtime/vehicle-dynamics.js": {
+      "bytes": 14795,
+      "sha256": "a5abb8dbd67325f89d31217f58b3fd4444faa46046d612689de916e2da456d2c"
+    },
+    "beta/ui-preview/runtime/vehicle-environment.js": {
+      "bytes": 1663,
+      "sha256": "bc76ba38ebbe0d1b19d7bbba97a38b3c0fbf4d3d40bf1889902eafc984a30caf"
+    },
+    "beta/ui-preview/runtime/vehicle-instruments.js": {
+      "bytes": 7443,
+      "sha256": "c38c8d322c987c06dc2465706b5aab5e697f0cdaa98ed2badea01a6621382e60"
+    },
+    "beta/ui-preview/runtime/vehicle-lights.js": {
+      "bytes": 10743,
+      "sha256": "52c49146af811198164b2f025bf95a3a2598ac20fe8dc08dc08aa28aaa723a82"
+    },
+    "beta/ui-preview/runtime/vehicle-physics.js": {
+      "bytes": 9932,
+      "sha256": "7e58d1fdda2386922e237ce26b304727a28ca9a2a0f41dbc6cafc882c9bcfe04"
+    },
+    "beta/ui-preview/runtime/vendor/BufferGeometryUtils.js": {
+      "bytes": 35551,
+      "sha256": "248b3e8420bd3de805ca01845c1b0cc62aa2766f3c56bdcead265e306f8e715c"
+    },
+    "beta/ui-preview/runtime/vendor/GLTFLoader.js": {
+      "bytes": 114744,
+      "sha256": "2904f2823e23d5bc1d64512bf4c0d777ac44d728d47c34a9e3d48ce8ef6b761d"
+    },
+    "beta/ui-preview/runtime/vendor/three.core.js": {
+      "bytes": 1403455,
+      "sha256": "eb077d2417f61d3e6d9264c317cabc4ea35769ed6b0ab533067292a550784c20"
+    },
+    "beta/ui-preview/runtime/vendor/three.module.js": {
+      "bytes": 603113,
+      "sha256": "c8211c69345d2e9949dc7a8ac969380497aa0600a5a8ac6a459c8cd02dd9cb8a"
+    },
+    "beta/ui-preview/runtime/world.js": {
       "bytes": 16409,
       "sha256": "cea27bf7058e6614f663e342672b21f340d055b3e03806055d62d397d7f052ad"
     },
@@ -1508,399 +1908,7 @@
     "world.js": {
       "bytes": 15160,
       "sha256": "615c6ebeadff337b59cc3d0bc96a6d06d432b08a3fce8ee4da28e0cb06624e78"
-    },
-    "beta/ui-preview/fixture.js": {
-      "bytes": 9156,
-      "sha256": "ec6aa2242382097370b445147a7d4c3f7057911f7f0a7132b1f22d182f66567d"
-    },
-    "beta/ui-preview/index.html": {
-      "bytes": 5546,
-      "sha256": "16aa7401fcd1382a1c3ff710ad746a868b3a32761fe210ded8e6b36a2f4385cf"
-    },
-    "beta/ui-preview/manifest.json": {
-      "bytes": 11303,
-      "sha256": "e8c9faf8308164a31d78d2f141d436eeaa0c80e0c5fc13a97c8c141d032d090f"
-    },
-    "beta/ui-preview/runtime/ASSET_CREDITS.txt": {
-      "bytes": 3625,
-      "sha256": "134ae195685dc8e191fb642284ad32a01e147ce15edb34a4fe01c00bd76c4771"
-    },
-    "beta/ui-preview/runtime/aircraft-ui.css": {
-      "bytes": 3569,
-      "sha256": "f19bfcae4992c7b3e02b6d83534086cbec7d54259752fc67e7eaa23969612bb3"
-    },
-    "beta/ui-preview/runtime/aircraft-ui.js": {
-      "bytes": 4200,
-      "sha256": "5b87db19cd99bb2c18e2d114c70f2d2c7d01aca42a016ac9ce8427a719a529b5"
-    },
-    "beta/ui-preview/runtime/asset-car.js": {
-      "bytes": 8599,
-      "sha256": "bd1fe9908924d9fc29b776a7edb27bc06758d69671f65f42ba1bd680f4adec8e"
-    },
-    "beta/ui-preview/runtime/assets/g9/g9-display-art.js": {
-      "bytes": 2898,
-      "sha256": "67c581b605fb461bdd2101ecc580cec4cfb647f7ef296f994d2c8f51658cbc3b"
-    },
-    "beta/ui-preview/runtime/assets/g9/g9-materials.js": {
-      "bytes": 1475,
-      "sha256": "c80772797a5b16fecf0296c21c5dd7466a55d6093e5c9dc4dd4239073dbe4fe3"
-    },
-    "beta/ui-preview/runtime/assist-settings.js": {
-      "bytes": 2931,
-      "sha256": "b280d1f2d3bffb8ad4d5524f4fd2af6f8208092d0cdb73beeb358ccbb652e23e"
-    },
-    "beta/ui-preview/runtime/assist-status.js": {
-      "bytes": 1027,
-      "sha256": "ff81d9f9b131e518327562d1da5cbf6ce95b3c2234cd98bababb5cf9e4e98a4e"
-    },
-    "beta/ui-preview/runtime/audio.js": {
-      "bytes": 1826,
-      "sha256": "d2a7c030ba795cce7099bb6792f9708e098715d7b17fc679e24d1dfef4e12653"
-    },
-    "beta/ui-preview/runtime/autonomy-test-job.js": {
-      "bytes": 19822,
-      "sha256": "05d7af68b2dc5409221cfd30ed3bc8033115dd2a0ec7b95b0b876f5a772de16f"
-    },
-    "beta/ui-preview/runtime/axle-fault.js": {
-      "bytes": 3943,
-      "sha256": "1feb3541ffbeb9163a74bca92fb0c907d035bcbc3c6d01d3f4385d461bb0c2af"
-    },
-    "beta/ui-preview/runtime/beta-runtime-entry.js": {
-      "bytes": 2972,
-      "sha256": "55f72c3220ed26137bb2b4ab29b4af69f6ebd57c623052d71acb17b1e06840c4"
-    },
-    "beta/ui-preview/runtime/beta-runtime.css": {
-      "bytes": 337,
-      "sha256": "1779d344ee6a39a1bd225093a74561ae7694ed22a4d43e89ece9264ad27c8959"
-    },
-    "beta/ui-preview/runtime/beta-save-slots.js": {
-      "bytes": 15553,
-      "sha256": "b2aed628f7a0c1cf4b79d2df954705be96a41e0e138ea8a17966ceed38eefa3c"
-    },
-    "beta/ui-preview/runtime/brake-closeup.css": {
-      "bytes": 2260,
-      "sha256": "9d31848971f33a7c0193e4f3e29d13cc73a20278180ca2907e3901d64020374d"
-    },
-    "beta/ui-preview/runtime/brake-closeup.js": {
-      "bytes": 6405,
-      "sha256": "cc6b436eec7eb1f61bcd83ee9d1707c1563f74bcf34a172a46e0d978e6f3ad40"
-    },
-    "beta/ui-preview/runtime/brake-fault.js": {
-      "bytes": 3626,
-      "sha256": "790b31e9613a908ef62b33b1c4256b50032187ed793df2df4533690e0be0dcb4"
-    },
-    "beta/ui-preview/runtime/cockpit.css": {
-      "bytes": 12609,
-      "sha256": "49d9f97c4a3868c08df5f00f527a26bd15bac2644a92dceefc2dd5e2e14bd071"
-    },
-    "beta/ui-preview/runtime/cockpit.js": {
-      "bytes": 30179,
-      "sha256": "7190f668b2b21588130896543f48d4968e75d90237ff8342e556284e5c22261c"
-    },
-    "beta/ui-preview/runtime/driving-assist.js": {
-      "bytes": 13701,
-      "sha256": "5c4dd83780b417b6429b5b5cfe0ea2cf685455478b7f79c4dd226da647830d96"
-    },
-    "beta/ui-preview/runtime/driving-hud.css": {
-      "bytes": 17285,
-      "sha256": "4e49f4a85978413234dbb8777f131ee965ffc88c3730abea0e007cdddefd4d5a"
-    },
-    "beta/ui-preview/runtime/entry-animation.js": {
-      "bytes": 11805,
-      "sha256": "bff2d80a9826bb4aa6252c35a1b58bf31b2b292976522c6549e5be1b929df261"
-    },
-    "beta/ui-preview/runtime/flight-travel.js": {
-      "bytes": 4641,
-      "sha256": "9ec62b57456535227602489e0f78d0c63a3f4c8632f4d6a6fa919ebb7fa16aa6"
-    },
-    "beta/ui-preview/runtime/flyable-aircraft.js": {
-      "bytes": 31205,
-      "sha256": "f36696a5a910f98a4b52261e17ae80ce2ec66bc0bf49fe40da8bf98da4ef9183"
-    },
-    "beta/ui-preview/runtime/g9-asset.js": {
-      "bytes": 1494,
-      "sha256": "741d30d8d2fc0ddd37d330b78ab1fdab8c78666d612881061021552bd459530d"
-    },
-    "beta/ui-preview/runtime/g9-displays.js": {
-      "bytes": 1843,
-      "sha256": "fff950ef6fe11f4c55148c7f2611d234e978ea229c8aea669bb3a52e73598919"
-    },
-    "beta/ui-preview/runtime/g9-navigation.js": {
-      "bytes": 9018,
-      "sha256": "afbf87b69c5cf357740605adda83fbd211200d20be629b2f22439bf7c6769eac"
-    },
-    "beta/ui-preview/runtime/g9-vehicle.js": {
-      "bytes": 5985,
-      "sha256": "8b110233010630787be38346f22cf7d63a77860744e0b12f6213c7e62a057f0c"
-    },
-    "beta/ui-preview/runtime/game.js": {
-      "bytes": 79002,
-      "sha256": "581ab7a9dd6c50f9aef5b551202b7ceeb1daf73824731678ff39a6ca7476a4a1"
-    },
-    "beta/ui-preview/runtime/godot-physics.js": {
-      "bytes": 18338,
-      "sha256": "79f242ae97089fa87445e1c8d7d76afb30014224e4d359bd6a4c6e98a93f2fde"
-    },
-    "beta/ui-preview/runtime/ground-contact.js": {
-      "bytes": 13103,
-      "sha256": "acbab580e83e8b3e1883c320827d8cc211734906f0d2f85285a376de9ef9397c"
-    },
-    "beta/ui-preview/runtime/impact-damage.js": {
-      "bytes": 4515,
-      "sha256": "75d7d9a8970ff97b60a71581c781ee17f6f5d05fcb6f90e6980cc4a8aeae8f08"
-    },
-    "beta/ui-preview/runtime/index.html": {
-      "bytes": 9190,
-      "sha256": "714f08b2a1bd6a80876831d296c5d87c1b28fcf6b290df8ce8eef151489eaea5"
-    },
-    "beta/ui-preview/runtime/interface-system.css": {
-      "bytes": 17678,
-      "sha256": "af04e7f3b475272776dbeaba5bad007aa11fb19831ef341eb8d58942d7621103"
-    },
-    "beta/ui-preview/runtime/interface-system.js": {
-      "bytes": 6704,
-      "sha256": "e5ec15ce64c4720f16a8f6ccbf1f3b3c81a6f50ca810f2aa5fc227a484edf74e"
-    },
-    "beta/ui-preview/runtime/loading-progress.js": {
-      "bytes": 514,
-      "sha256": "97a7326e32aeb39c4b82e3bf217da411470e63191fbd7dfde05cd4acda73e0f3"
-    },
-    "beta/ui-preview/runtime/location-beacons.js": {
-      "bytes": 2893,
-      "sha256": "78d925d4084caa684ed23f3074b2eaa73f659894907ae02d229b34b8083895da"
-    },
-    "beta/ui-preview/runtime/location-teleport.js": {
-      "bytes": 9128,
-      "sha256": "d34b51aaf6dad281cf7a47bbc272bb927f581ca5999506c2154773ac9f6ac616"
-    },
-    "beta/ui-preview/runtime/map-ui.css": {
-      "bytes": 5224,
-      "sha256": "a437af6298467841cfd1743e789c84a5f35089f07fc109594eb463b10cd118e6"
-    },
-    "beta/ui-preview/runtime/map-ui.js": {
-      "bytes": 17203,
-      "sha256": "5f5ddf62cf2d7bb4f51aa3825dafbe65374852a2dcc4d4508511689a2a68a841"
-    },
-    "beta/ui-preview/runtime/mobile-ui.css": {
-      "bytes": 47644,
-      "sha256": "314e75bbee622011817ed55f5282b339ed51ee6f71b89cf0398e488c98cbd143"
-    },
-    "beta/ui-preview/runtime/mobile-ui.js": {
-      "bytes": 26698,
-      "sha256": "3e828deb99d885fd49e2e4309b47134514d0d8aa73b72b6281a1be3e08373589"
-    },
-    "beta/ui-preview/runtime/mountain-barriers.js": {
-      "bytes": 1416,
-      "sha256": "dc826dcef12ab68db820a2d06459883aac903d44ecdc18abe5f8317464321795"
-    },
-    "beta/ui-preview/runtime/navigation-guidance.js": {
-      "bytes": 6095,
-      "sha256": "213bebd410e43156dc410a302c7682747a85154f4ba33aab6a6da5e6983153a0"
-    },
-    "beta/ui-preview/runtime/navigation-ui.css": {
-      "bytes": 6923,
-      "sha256": "0afda63f38c00855d03dbfad5b2838de5d2b3b5f671a787b86f72e62af4f5ac9"
-    },
-    "beta/ui-preview/runtime/navigation-ui.js": {
-      "bytes": 5441,
-      "sha256": "b52700108607200e8ad8c5e24dfcd719d578fbfa6fa4c0aceec5afbec1afccd6"
-    },
-    "beta/ui-preview/runtime/neon-icon.svg": {
-      "bytes": 273,
-      "sha256": "d9121caf3438ca25dd0318a8f3630f02fccfa755a05eea11e8aed441e4c36bae"
-    },
-    "beta/ui-preview/runtime/performance-profile.js": {
-      "bytes": 1845,
-      "sha256": "4d42625b1ef7801f7a8581bbf0f7fa5b3b7b3fdfd9fccfbd84a8056cc2c1257c"
-    },
-    "beta/ui-preview/runtime/physics-surfaces.js": {
-      "bytes": 3371,
-      "sha256": "dd2908d2b5b24bba3f8abbfa5d02854016b191dccaf4182b29fa799a0db07691"
-    },
-    "beta/ui-preview/runtime/pilot-detour.js": {
-      "bytes": 2984,
-      "sha256": "b25ae1b72063da9cf1558d8c4d6cc2ac18a7e8ca1268525106432ac7d4fc59d9"
-    },
-    "beta/ui-preview/runtime/pilot.js": {
-      "bytes": 26704,
-      "sha256": "c7565332210aef9854071f4d65362756ff29efffb167c3d6d1622a8addc0255b"
-    },
-    "beta/ui-preview/runtime/population-stream.js": {
-      "bytes": 8853,
-      "sha256": "a2d15ca504d6480d36e8c75dd350cc48d3ce90cd54bc814333e7433bdba50c89"
-    },
-    "beta/ui-preview/runtime/preview-slots.js": {
-      "bytes": 9899,
-      "sha256": "f3eb7fb5bc6a5ca0c3d3f797c39d31375fdc157ccd35e3ba9958e2db67a8f3d3"
-    },
-    "beta/ui-preview/runtime/region-scenery.js": {
-      "bytes": 9128,
-      "sha256": "559fe50fd6ac34b29e6bcc7885d7ebaf612dd772acd5f92a4ff2d5bb7f054544"
-    },
-    "beta/ui-preview/runtime/regions.js": {
-      "bytes": 10533,
-      "sha256": "ef77c7def0164731478f5971beaeecc0ac3cd41ba72aa30d6920330b62d9e218"
-    },
-    "beta/ui-preview/runtime/release-notes.js": {
-      "bytes": 8652,
-      "sha256": "fdfc5d999dbab3c093bdc9e9c59ffcacfe6c8214362cf426a392b3542d92be12"
-    },
-    "beta/ui-preview/runtime/release-ui.js": {
-      "bytes": 2320,
-      "sha256": "e73c557bbc77e67542d08c55001d99b33cd1737c3fbdcc54f140aeda030a4d6e"
-    },
-    "beta/ui-preview/runtime/render-motion.js": {
-      "bytes": 3613,
-      "sha256": "9734ed7ba7a4a0ae4d5e5b3a049086b6c13e36966a7938f4da3617a9e987ce9a"
-    },
-    "beta/ui-preview/runtime/roadster-asset.js": {
-      "bytes": 6878,
-      "sha256": "1e36d5be480b1b8ae3e38a58146ede268c69463d9adc0c4ca3ef65c9eb238186"
-    },
-    "beta/ui-preview/runtime/roadster-controls.js": {
-      "bytes": 12963,
-      "sha256": "c297f0fa9a923af77fb26c011096dc36c266f5c2ad8d7d6addf680ea1b63b4c8"
-    },
-    "beta/ui-preview/runtime/roadster-displays.js": {
-      "bytes": 12540,
-      "sha256": "abde1b5ec05a1167894c13503cd943da69ef64ab55546bf0507477c9d94a33de"
-    },
-    "beta/ui-preview/runtime/roadster-jets.js": {
-      "bytes": 9394,
-      "sha256": "f9547163539d74e1e5c1a99068ef6b997129732ed96dd8eaeada9058ff32639a"
-    },
-    "beta/ui-preview/runtime/roadster-ui.css": {
-      "bytes": 8782,
-      "sha256": "706880222d41ad79b748882e8e4180f36f57a3d88dcca18389dbffe0e5026c7e"
-    },
-    "beta/ui-preview/runtime/roadster-ui.js": {
-      "bytes": 8871,
-      "sha256": "8b8ab0d37992a845de01978cf67dec10d02dd62c3ce7c36a9d1732d91043f7bc"
-    },
-    "beta/ui-preview/runtime/roadster-vehicle.js": {
-      "bytes": 1493,
-      "sha256": "8932d96570331547038af1e0906b2f56e188c60b71dfdcddc58150229504ca0f"
-    },
-    "beta/ui-preview/runtime/robotaxi.js": {
-      "bytes": 21418,
-      "sha256": "fbf00a2ccc041278590d2ca9c735b0da3719892b1887ec1ed89b7af4a29fc9c8"
-    },
-    "beta/ui-preview/runtime/route-view.js": {
-      "bytes": 1033,
-      "sha256": "d3d9acdb7d6157a0d474bf1b55c89fefffb02b464667eeb11db7698ff07630b6"
-    },
-    "beta/ui-preview/runtime/save-validation.js": {
-      "bytes": 5156,
-      "sha256": "6e77cd5d9b8811245211b6d1ccb7f5c4bcb210b1d301a2eb90dd89bd2a36bdf7"
-    },
-    "beta/ui-preview/runtime/sensor.js": {
-      "bytes": 18625,
-      "sha256": "35d75d3c9af9fe654168cfb7260db14a0f6aa8d5b18596cae7be31d2d2b4f5c3"
-    },
-    "beta/ui-preview/runtime/showroom.css": {
-      "bytes": 9821,
-      "sha256": "97fdc6f2fbefa7544c36eee570a21867b00496b9546b51fef4c05257be6665a5"
-    },
-    "beta/ui-preview/runtime/showroom.js": {
-      "bytes": 12544,
-      "sha256": "76d12d5648c3ca8b7473e067baff8e2ade63d4aceccf65e8aacf8cbcdb7c16e2"
-    },
-    "beta/ui-preview/runtime/standard-save-keys.js": {
-      "bytes": 515,
-      "sha256": "6841b883df448fe54f63aff19cbe877f9c4f30b65db5b69f39a392d5609bb02f"
-    },
-    "beta/ui-preview/runtime/storage-keys.js": {
-      "bytes": 2102,
-      "sha256": "a3f1196b55961ae56e0965bef9351a8ac3044c2a032adf5a599c9bca6b7fe832"
-    },
-    "beta/ui-preview/runtime/streaming-world.js": {
-      "bytes": 31981,
-      "sha256": "fc9a54850cb1ab3b43e4f71764e8b2623a6e337d9f7e9139737575c153db577a"
-    },
-    "beta/ui-preview/runtime/style.css": {
-      "bytes": 37989,
-      "sha256": "23dae1d3e9b27eae51496f6a3159dafcda2ce42eb6ea852079f350f8f405a7d1"
-    },
-    "beta/ui-preview/runtime/surface-layout.js": {
-      "bytes": 2647,
-      "sha256": "1ad1040d94fd7456f3196036802473d3d72cd38a99812ca8e495b5c37e88a57c"
-    },
-    "beta/ui-preview/runtime/touch-selection.js": {
-      "bytes": 1245,
-      "sha256": "81d3c3721ce6a36348b5e01c9a7eb44049e2e826820c4660d0550bcb88904e0f"
-    },
-    "beta/ui-preview/runtime/touch-transmission.js": {
-      "bytes": 2007,
-      "sha256": "b27479101147500a5f10e096dc01b21d3dd9da25473e3a41b2a4174a9ed1ab4e"
-    },
-    "beta/ui-preview/runtime/traffic-controller.js": {
-      "bytes": 3912,
-      "sha256": "6a3efe61dad105ddc54e9909edb2a3f569123387c688999dd580224385335d55"
-    },
-    "beta/ui-preview/runtime/ui.js": {
-      "bytes": 47125,
-      "sha256": "c41c746715124b0489604e1222f5d180b16e378070d02f62e65ccee08b97aaf6"
-    },
-    "beta/ui-preview/runtime/vehicle-asset-flow.js": {
-      "bytes": 1866,
-      "sha256": "e496d59be64cc15ea2e4098106dfa7d723ac9bf693440b82e4bf9a53460f403e"
-    },
-    "beta/ui-preview/runtime/vehicle-asset-registry.js": {
-      "bytes": 2371,
-      "sha256": "527b7a6a93e224b02a92c949988277441080e519553b1938febb2a49fb96a400"
-    },
-    "beta/ui-preview/runtime/vehicle-catalog.js": {
-      "bytes": 6154,
-      "sha256": "04e4c1d1ee9875e08a899c924360be14d693f28439a4ac09c5657cc177b57833"
-    },
-    "beta/ui-preview/runtime/vehicle-damage.js": {
-      "bytes": 30087,
-      "sha256": "5e102b2ae5e5d2bc92757ba34368db32fcecd5f75458b12fdb8ac7f977d5050a"
-    },
-    "beta/ui-preview/runtime/vehicle-design.js": {
-      "bytes": 63477,
-      "sha256": "8cc8490ff273fe0fd30b295e3d3342d37a728dbd54f4d8abfcf2b3ca99bee82b"
-    },
-    "beta/ui-preview/runtime/vehicle-dynamics.js": {
-      "bytes": 14795,
-      "sha256": "a5abb8dbd67325f89d31217f58b3fd4444faa46046d612689de916e2da456d2c"
-    },
-    "beta/ui-preview/runtime/vehicle-environment.js": {
-      "bytes": 1663,
-      "sha256": "bc76ba38ebbe0d1b19d7bbba97a38b3c0fbf4d3d40bf1889902eafc984a30caf"
-    },
-    "beta/ui-preview/runtime/vehicle-instruments.js": {
-      "bytes": 7443,
-      "sha256": "c38c8d322c987c06dc2465706b5aab5e697f0cdaa98ed2badea01a6621382e60"
-    },
-    "beta/ui-preview/runtime/vehicle-lights.js": {
-      "bytes": 10743,
-      "sha256": "52c49146af811198164b2f025bf95a3a2598ac20fe8dc08dc08aa28aaa723a82"
-    },
-    "beta/ui-preview/runtime/vehicle-physics.js": {
-      "bytes": 9932,
-      "sha256": "7e58d1fdda2386922e237ce26b304727a28ca9a2a0f41dbc6cafc882c9bcfe04"
-    },
-    "beta/ui-preview/runtime/vendor/BufferGeometryUtils.js": {
-      "bytes": 35551,
-      "sha256": "248b3e8420bd3de805ca01845c1b0cc62aa2766f3c56bdcead265e306f8e715c"
-    },
-    "beta/ui-preview/runtime/vendor/GLTFLoader.js": {
-      "bytes": 114744,
-      "sha256": "2904f2823e23d5bc1d64512bf4c0d777ac44d728d47c34a9e3d48ce8ef6b761d"
-    },
-    "beta/ui-preview/runtime/vendor/three.core.js": {
-      "bytes": 1403455,
-      "sha256": "eb077d2417f61d3e6d9264c317cabc4ea35769ed6b0ab533067292a550784c20"
-    },
-    "beta/ui-preview/runtime/vendor/three.module.js": {
-      "bytes": 603113,
-      "sha256": "c8211c69345d2e9949dc7a8ac969380497aa0600a5a8ac6a459c8cd02dd9cb8a"
-    },
-    "beta/ui-preview/runtime/world.js": {
-      "bytes": 16409,
-      "sha256": "cea27bf7058e6614f663e342672b21f340d055b3e03806055d62d397d7f052ad"
     }
   },
-  "uiPreviewManifestSHA256": "e8c9faf8308164a31d78d2f141d436eeaa0c80e0c5fc13a97c8c141d032d090f"
+  "uiPreviewManifestSHA256": "627424b3945a46c1e711431478a8ae68f5c103809df6800e799b8a579ef31ae9"
 }
