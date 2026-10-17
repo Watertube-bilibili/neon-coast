@@ -1,38 +1,38 @@
 {
   "version": 1,
-  "originalSourceCommit": "269ca52f4fe6dc8ff9bca89678ffbc04d578c0b8",
+  "originalSourceCommit": "0dcd83e3284eea44f92ec7cb90c86a6fdcebd41f",
   "formalVersion": "1.5 latest r9 + beta entry",
   "previewVersion": "2.0.0-beta.1 at /beta/",
   "archives": [
     {
-      "bytes": 8956102,
-      "file": "neon-coast-r9-ca7ed38-01.zip",
-      "sha256": "e1533bad829034d2c3d0e4660bee50b0c637f22485a27edb65a4ef32b8fb5029"
+      "file": "neon-coast-favicon-startup-0dcd83e-01.zip",
+      "bytes": 8996326,
+      "sha256": "881e4fe74d3a0813841bfaaeaf658f472b421017198e5eead01b91f56d28bf91"
     },
     {
-      "bytes": 10920007,
-      "file": "neon-coast-r9-ca7ed38-02.zip",
-      "sha256": "70d1274f672028a952ee5c79160e7f5dfccb0b10ab487242fcfc861f178a75aa"
+      "file": "neon-coast-favicon-startup-0dcd83e-02.zip",
+      "bytes": 10920080,
+      "sha256": "3615e8745f82ac7e14e0225be32210f0744510dc75dbc7faa93b38f6f14bc4f5"
     },
     {
-      "bytes": 10515414,
-      "file": "neon-coast-r9-ca7ed38-04.zip",
-      "sha256": "20c913af683f7d8306f7c2ca731184d2ea12f1b2325089f984d1b69d24926c0f"
+      "file": "neon-coast-favicon-startup-0dcd83e-03.zip",
+      "bytes": 10515650,
+      "sha256": "c6bea75bcec88c50aa24c0318631b2720ffa1f3197143ee73718acf9c18d911e"
     },
     {
-      "file": "neon-coast-beta-panel-269ca52-01.zip",
-      "bytes": 12076222,
-      "sha256": "a02a15f93667a95e0379e1c74d67d896f3123006a36a6ec34aebcc6a211a8f08"
+      "file": "neon-coast-favicon-startup-0dcd83e-04.zip",
+      "bytes": 12076787,
+      "sha256": "4b29f07ddb08fd4587c0012c400c0961325d098b2cf82e9b41c119e76ed38614"
     },
     {
-      "file": "neon-coast-beta-panel-269ca52-02.zip",
-      "bytes": 9968597,
-      "sha256": "31e65e62ced32aff379800fa2764aa23d055c270c5452060aa531697e0c58e64"
+      "file": "neon-coast-favicon-startup-0dcd83e-05.zip",
+      "bytes": 9968710,
+      "sha256": "3e40d68d4850601d1b578e56d81527466dbb5cb41f70df920728ee30f3a0a28f"
     },
     {
-      "file": "neon-coast-beta1-delta-64961ba-03.zip",
-      "bytes": 9792635,
-      "sha256": "b13f4224144c2a843f36f6b554de9dd21c656765857bd711b4969085f7067d8a"
+      "file": "neon-coast-favicon-startup-0dcd83e-06.zip",
+      "bytes": 9792791,
+      "sha256": "6c88668c48df8932e60876e0a7de483c38706190f27a2cd005467423ee582a05"
     },
     {
       "file": "neon-coast-beta-aero-e516a14-03.zip",
@@ -53,6 +53,10 @@
     "THIRD_PARTY_ASSETS.md": {
       "bytes": 2443,
       "sha256": "9c733604478a2f560de4706fbea61f2f9c3aa1f48aaa9f4f8874211eaadddc69"
+    },
+    "apple-touch-icon.png": {
+      "bytes": 4349,
+      "sha256": "942239fd3db7b14f8522c4ea3a3c952362c90891fdb168980a1e9981395fa01e"
     },
     "asset-car.js": {
       "bytes": 8315,
@@ -86,6 +90,10 @@
       "bytes": 1826,
       "sha256": "d2a7c030ba795cce7099bb6792f9708e098715d7b17fc679e24d1dfef4e12653"
     },
+    "beta/apple-touch-icon.png": {
+      "bytes": 4349,
+      "sha256": "942239fd3db7b14f8522c4ea3a3c952362c90891fdb168980a1e9981395fa01e"
+    },
     "beta/beta-launcher.css": {
       "bytes": 5392,
       "sha256": "e41e31cc67ed8278efa1e35e8ccd3d9dd5e9eb9eed6cf21e1ad33a5fb5d74cbf"
@@ -94,9 +102,21 @@
       "bytes": 3543,
       "sha256": "2a86829eb8d29ba8c5ba9945a65060fe5fe601fd7301aa1a6281f881c8b0fd98"
     },
+    "beta/favicon.ico": {
+      "bytes": 22382,
+      "sha256": "54e911f488faf91a6dcde4a56950591451cf19a0c91dc2c87e4d5ba10b83dab7"
+    },
     "beta/index.html": {
-      "bytes": 2851,
-      "sha256": "d5a2a14ae30ffb35377fc70c1083e01ea06688bc96783349a61e8bd0a17fbb1f"
+      "bytes": 3133,
+      "sha256": "6da5de8764e04826d1cf93fa355e750ff393012975edad23fc6fae7747605698"
+    },
+    "beta/neon-icon-32.png": {
+      "bytes": 953,
+      "sha256": "5ae5407ba6e962ceb48e27aeea9c5c760abcea75ba5eb9c8eb2d9a25b9c48673"
+    },
+    "beta/neon-icon.svg": {
+      "bytes": 360,
+      "sha256": "0ab6174f406f9e289bb76d35fe90ef1dc011b3b96711ab23191f515265822cca"
     },
     "beta/play/ASSET_CREDITS.txt": {
       "bytes": 3625,
@@ -113,6 +133,10 @@
     "beta/play/aircraft-ui.js": {
       "bytes": 4200,
       "sha256": "5b87db19cd99bb2c18e2d114c70f2d2c7d01aca42a016ac9ce8427a719a529b5"
+    },
+    "beta/play/apple-touch-icon.png": {
+      "bytes": 4349,
+      "sha256": "942239fd3db7b14f8522c4ea3a3c952362c90891fdb168980a1e9981395fa01e"
     },
     "beta/play/asset-car.js": {
       "bytes": 8599,
@@ -250,6 +274,10 @@
       "bytes": 11805,
       "sha256": "bff2d80a9826bb4aa6252c35a1b58bf31b2b292976522c6549e5be1b929df261"
     },
+    "beta/play/favicon.ico": {
+      "bytes": 22382,
+      "sha256": "54e911f488faf91a6dcde4a56950591451cf19a0c91dc2c87e4d5ba10b83dab7"
+    },
     "beta/play/flight-travel.js": {
       "bytes": 4641,
       "sha256": "9ec62b57456535227602489e0f78d0c63a3f4c8632f4d6a6fa919ebb7fa16aa6"
@@ -287,8 +315,12 @@
       "sha256": "581ab7a9dd6c50f9aef5b551202b7ceeb1daf73824731678ff39a6ca7476a4a1"
     },
     "beta/play/godot-physics.js": {
-      "bytes": 18338,
-      "sha256": "79f242ae97089fa87445e1c8d7d76afb30014224e4d359bd6a4c6e98a93f2fde"
+      "bytes": 18941,
+      "sha256": "4b851af51495b975a76b07174ebe39988d61889968fba9192cb2d99328a85306"
+    },
+    "beta/play/godot-startup-diagnostics.js": {
+      "bytes": 1746,
+      "sha256": "4bc2619f96a2e4453f49a46c20927fd9ff24689d68009b39ec6cc09f58e124d4"
     },
     "beta/play/ground-contact.js": {
       "bytes": 13103,
@@ -299,8 +331,8 @@
       "sha256": "75d7d9a8970ff97b60a71581c781ee17f6f5d05fcb6f90e6980cc4a8aeae8f08"
     },
     "beta/play/index.html": {
-      "bytes": 9992,
-      "sha256": "a6c907b9a1c60b486a443e9d73d66a2b75e5c9070256452e3575f1eb622318f8"
+      "bytes": 10260,
+      "sha256": "4221ca2f8411c3f2e4c174c5b669e8d5bee52c36ae5f23da7700aaebbda6103b"
     },
     "beta/play/interface-system.css": {
       "bytes": 39486,
@@ -354,9 +386,13 @@
       "bytes": 5436,
       "sha256": "b57025c637f2477e6b784cdd24876d8f432e99a25bb27fb6d3c1530160cae90a"
     },
+    "beta/play/neon-icon-32.png": {
+      "bytes": 953,
+      "sha256": "5ae5407ba6e962ceb48e27aeea9c5c760abcea75ba5eb9c8eb2d9a25b9c48673"
+    },
     "beta/play/neon-icon.svg": {
-      "bytes": 273,
-      "sha256": "d9121caf3438ca25dd0318a8f3630f02fccfa755a05eea11e8aed441e4c36bae"
+      "bytes": 360,
+      "sha256": "0ab6174f406f9e289bb76d35fe90ef1dc011b3b96711ab23191f515265822cca"
     },
     "beta/play/performance-profile.js": {
       "bytes": 1845,
@@ -375,12 +411,12 @@
       "sha256": "b0435e3b3e4e55238f05f4b306f30524a1b2e20147810d436eaa554fa6855c80"
     },
     "beta/play/physics/TRANSPORT-NOTICE.txt": {
-      "bytes": 400,
-      "sha256": "830c57acae64f2225c7c244c0caaaac31620a554784648a053bd326cff4749d2"
+      "bytes": 486,
+      "sha256": "0ddc162d55efd864ea001a4e288f15672ef5009a7856a9a96f12ddf49ae3eccb"
     },
     "beta/play/physics/manifest.json": {
       "bytes": 2752,
-      "sha256": "8d595a1f81ff0f7cea3eb3d7da26feee3f25cfc92f02a36cb86b2f536a16852d"
+      "sha256": "517c71723c7f297cc2c945ef63bea2cd2864807dc88c7075884c149adb26e8e8"
     },
     "beta/play/physics/neon-physics.audio.position.worklet.js": {
       "bytes": 2973,
@@ -391,8 +427,8 @@
       "sha256": "5b476a9c9ce642c0ee4256436d1bc31d9c38f868aca0f9a8e2a57c18d2dec2a3"
     },
     "beta/play/physics/neon-physics.js": {
-      "bytes": 318577,
-      "sha256": "2edf27d9214d1507deff3660b760114a6793d56a9178b06aeb49c60dba73777a"
+      "bytes": 319196,
+      "sha256": "a464c342cc67dcee7d2dd7259937f3f87a8b8aba5de6ce6a838940314efa3c1b"
     },
     "beta/play/physics/neon-physics.pck": {
       "bytes": 51908,
@@ -495,8 +531,8 @@
       "sha256": "47d43489f5aab0cc2556f67d0f898c96116b04cd4eba33fb6a50f40e9bcad2d4"
     },
     "beta/play/showroom.html": {
-      "bytes": 3265,
-      "sha256": "46053a44c1e5a891117791326110b9c2b5562c84b7a22eb193232aa0d80b819e"
+      "bytes": 3595,
+      "sha256": "6acb5fa7afcc628b322d7e4ea5ca619fa5ac3989a72f549e94aa343cf3184f86"
     },
     "beta/play/showroom.js": {
       "bytes": 12544,
@@ -1478,6 +1514,10 @@
       "bytes": 11805,
       "sha256": "bff2d80a9826bb4aa6252c35a1b58bf31b2b292976522c6549e5be1b929df261"
     },
+    "favicon.ico": {
+      "bytes": 22382,
+      "sha256": "54e911f488faf91a6dcde4a56950591451cf19a0c91dc2c87e4d5ba10b83dab7"
+    },
     "flight-travel.js": {
       "bytes": 3206,
       "sha256": "35a8f9df7b02820efde5f495bbd3914bf4f17f2b9ebe1ab6aa960a3c79ad9c5b"
@@ -1495,8 +1535,8 @@
       "sha256": "db9f441934b0184780c96283979c0e1b8bf016c5339d26e92dbe753346d6a5af"
     },
     "index.html": {
-      "bytes": 1493,
-      "sha256": "cd9e5d6d6faef4818c9d3a763b3772b0956cfe88d39997f45780267b6983cfb1"
+      "bytes": 1750,
+      "sha256": "f674b1fca885f0e67c8abee95da82aaebb89b8e2eb89809371138e62b6d9fc32"
     },
     "legacy-1-3/ASSET_CREDITS.txt": {
       "bytes": 2443,
@@ -1505,6 +1545,10 @@
     "legacy-1-3/THIRD_PARTY_ASSETS.md": {
       "bytes": 2443,
       "sha256": "9c733604478a2f560de4706fbea61f2f9c3aa1f48aaa9f4f8874211eaadddc69"
+    },
+    "legacy-1-3/apple-touch-icon.png": {
+      "bytes": 4349,
+      "sha256": "942239fd3db7b14f8522c4ea3a3c952362c90891fdb168980a1e9981395fa01e"
     },
     "legacy-1-3/asset-car.js": {
       "bytes": 8315,
@@ -1566,6 +1610,10 @@
       "bytes": 11805,
       "sha256": "bff2d80a9826bb4aa6252c35a1b58bf31b2b292976522c6549e5be1b929df261"
     },
+    "legacy-1-3/favicon.ico": {
+      "bytes": 22382,
+      "sha256": "54e911f488faf91a6dcde4a56950591451cf19a0c91dc2c87e4d5ba10b83dab7"
+    },
     "legacy-1-3/flight-travel.js": {
       "bytes": 3206,
       "sha256": "35a8f9df7b02820efde5f495bbd3914bf4f17f2b9ebe1ab6aa960a3c79ad9c5b"
@@ -1583,8 +1631,8 @@
       "sha256": "db9f441934b0184780c96283979c0e1b8bf016c5339d26e92dbe753346d6a5af"
     },
     "legacy-1-3/index.html": {
-      "bytes": 9040,
-      "sha256": "c8a286d507da3577b7318fca50e138e40c4bea865e4bf58acb0420d85ca0f755"
+      "bytes": 9089,
+      "sha256": "f1956ca038378e0a43aba4c9ad11ac6c5bda77bf10116f45093901a4aad4e848"
     },
     "legacy-1-3/location-beacons.js": {
       "bytes": 2893,
@@ -1609,6 +1657,14 @@
     "legacy-1-3/mobile-ui.js": {
       "bytes": 11006,
       "sha256": "4008b93cb7dbff6823d6796c6d33123ad8397df0a75f5c2720c9a7556b996eb4"
+    },
+    "legacy-1-3/neon-icon-32.png": {
+      "bytes": 953,
+      "sha256": "5ae5407ba6e962ceb48e27aeea9c5c760abcea75ba5eb9c8eb2d9a25b9c48673"
+    },
+    "legacy-1-3/neon-icon.svg": {
+      "bytes": 360,
+      "sha256": "0ab6174f406f9e289bb76d35fe90ef1dc011b3b96711ab23191f515265822cca"
     },
     "legacy-1-3/performance-profile.js": {
       "bytes": 1787,
@@ -1671,8 +1727,8 @@
       "sha256": "569ad92cc4963755d68493dcda93b186b79398d685e76ab566babff50b1fa2d2"
     },
     "legacy-1-3/showroom.html": {
-      "bytes": 2889,
-      "sha256": "543756c9a525a08d2f38e5753e811a313113d03c51b3c32838e621fa63e1c707"
+      "bytes": 3219,
+      "sha256": "1d3001e23e60da0904eaabbcde9cdbd6e90595e25bb4bd0956b76203bd11ac8e"
     },
     "legacy-1-3/showroom.js": {
       "bytes": 11673,
@@ -1774,6 +1830,14 @@
       "bytes": 11006,
       "sha256": "4008b93cb7dbff6823d6796c6d33123ad8397df0a75f5c2720c9a7556b996eb4"
     },
+    "neon-icon-32.png": {
+      "bytes": 953,
+      "sha256": "5ae5407ba6e962ceb48e27aeea9c5c760abcea75ba5eb9c8eb2d9a25b9c48673"
+    },
+    "neon-icon.svg": {
+      "bytes": 360,
+      "sha256": "0ab6174f406f9e289bb76d35fe90ef1dc011b3b96711ab23191f515265822cca"
+    },
     "performance-profile.js": {
       "bytes": 1787,
       "sha256": "a97e209af8bf218217b199b04465d7ee94dd145ff8a4854b057d1b5ee3db1fa9"
@@ -1805,6 +1869,10 @@
     "preview-1-5/aircraft-ui.js": {
       "bytes": 4200,
       "sha256": "5b87db19cd99bb2c18e2d114c70f2d2c7d01aca42a016ac9ce8427a719a529b5"
+    },
+    "preview-1-5/apple-touch-icon.png": {
+      "bytes": 4349,
+      "sha256": "942239fd3db7b14f8522c4ea3a3c952362c90891fdb168980a1e9981395fa01e"
     },
     "preview-1-5/asset-car.js": {
       "bytes": 8315,
@@ -1938,6 +2006,10 @@
       "bytes": 11805,
       "sha256": "bff2d80a9826bb4aa6252c35a1b58bf31b2b292976522c6549e5be1b929df261"
     },
+    "preview-1-5/favicon.ico": {
+      "bytes": 22382,
+      "sha256": "54e911f488faf91a6dcde4a56950591451cf19a0c91dc2c87e4d5ba10b83dab7"
+    },
     "preview-1-5/flight-travel.js": {
       "bytes": 4641,
       "sha256": "9ec62b57456535227602489e0f78d0c63a3f4c8632f4d6a6fa919ebb7fa16aa6"
@@ -1975,8 +2047,8 @@
       "sha256": "bed9ad6189a491345820b4ed006ccdddc2f4ee37d1089fa752b7ab976f7b2bd1"
     },
     "preview-1-5/index.html": {
-      "bytes": 8988,
-      "sha256": "026dac3d7931d7ac6cfe51ffaf79d10d9e51a8d19a4d9d38a16886acc686e501"
+      "bytes": 9256,
+      "sha256": "561aa3a3a1eb954425593920d3fcfe5e29faff696bc247f15aa734c1927fcb38"
     },
     "preview-1-5/location-beacons.js": {
       "bytes": 2893,
@@ -2014,9 +2086,13 @@
       "bytes": 5441,
       "sha256": "b52700108607200e8ad8c5e24dfcd719d578fbfa6fa4c0aceec5afbec1afccd6"
     },
+    "preview-1-5/neon-icon-32.png": {
+      "bytes": 953,
+      "sha256": "5ae5407ba6e962ceb48e27aeea9c5c760abcea75ba5eb9c8eb2d9a25b9c48673"
+    },
     "preview-1-5/neon-icon.svg": {
-      "bytes": 273,
-      "sha256": "d9121caf3438ca25dd0318a8f3630f02fccfa755a05eea11e8aed441e4c36bae"
+      "bytes": 360,
+      "sha256": "0ab6174f406f9e289bb76d35fe90ef1dc011b3b96711ab23191f515265822cca"
     },
     "preview-1-5/performance-profile.js": {
       "bytes": 1845,
@@ -2147,8 +2223,8 @@
       "sha256": "569ad92cc4963755d68493dcda93b186b79398d685e76ab566babff50b1fa2d2"
     },
     "preview-1-5/showroom.html": {
-      "bytes": 2889,
-      "sha256": "543756c9a525a08d2f38e5753e811a313113d03c51b3c32838e621fa63e1c707"
+      "bytes": 3219,
+      "sha256": "1d3001e23e60da0904eaabbcde9cdbd6e90595e25bb4bd0956b76203bd11ac8e"
     },
     "preview-1-5/showroom.js": {
       "bytes": 12307,
@@ -2299,8 +2375,8 @@
       "sha256": "569ad92cc4963755d68493dcda93b186b79398d685e76ab566babff50b1fa2d2"
     },
     "showroom.html": {
-      "bytes": 2889,
-      "sha256": "543756c9a525a08d2f38e5753e811a313113d03c51b3c32838e621fa63e1c707"
+      "bytes": 3219,
+      "sha256": "1d3001e23e60da0904eaabbcde9cdbd6e90595e25bb4bd0956b76203bd11ac8e"
     },
     "showroom.js": {
       "bytes": 11673,
