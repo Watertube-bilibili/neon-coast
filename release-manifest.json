@@ -1,13 +1,13 @@
 {
   "version": 1,
-  "originalSourceCommit": "201b693f40242db7c25380f2d22e64d049a2d860",
+  "originalSourceCommit": "94e2d40649d5ad6fe90d23b75530c85c5a722923",
   "formalVersion": "1.5 latest r9 + beta entry",
   "previewVersion": "2.0.0-beta.1 at /beta/",
   "archives": [
     {
-      "file": "neon-coast-cache-icons-201b693-01.zip",
-      "bytes": 9031781,
-      "sha256": "b97bc6f68ec0766cfcec8108e94c3b13621c30d865c278cc505074bc0094adea"
+      "file": "neon-coast-notice-94e2d40-01.zip",
+      "bytes": 9034417,
+      "sha256": "dc1edff98c660e61fee7de061b89a288ce5f749a8cf1f926e29fa6241d883906"
     },
     {
       "file": "neon-coast-cache-icons-201b693-02.zip",
@@ -20,9 +20,9 @@
       "sha256": "60eab2464fd0b1cdec231e3a8b25ee4e7501a62dd6c31385662e655e2a2229e0"
     },
     {
-      "file": "neon-coast-cache-icons-201b693-04.zip",
-      "bytes": 12077052,
-      "sha256": "2d236959a01daba8cfa76427d0f61afd7356e4771104598f2c2d1f39d7226d56"
+      "file": "neon-coast-notice-94e2d40-02.zip",
+      "bytes": 12077797,
+      "sha256": "5d5b9844ee8a1de07714b577882d4f36fd3ce827b0b649c8451f233900fb0c6c"
     },
     {
       "file": "neon-coast-cache-icons-201b693-05.zip",
@@ -107,8 +107,8 @@
       "sha256": "54e911f488faf91a6dcde4a56950591451cf19a0c91dc2c87e4d5ba10b83dab7"
     },
     "beta/index.html": {
-      "bytes": 3167,
-      "sha256": "1b78c923eeb91371e31d5185617ef11c38776f9a19d1b31a2a1ce5bc2cb4b91a"
+      "bytes": 4774,
+      "sha256": "2a8fc1560a287b23bc745b634223e496a00beefae2ae97213e8cb5322cbc1d4b"
     },
     "beta/neon-2-0-icon-apple.png": {
       "bytes": 4349,
@@ -1094,6 +1094,10 @@
       "bytes": 6667,
       "sha256": "c8047d268d9da26e9d51dc86f7bf9d0d7a57913954121093beab7bef7edd773f"
     },
+    "beta/ui-preview/canonical-notice/index.html": {
+      "bytes": 3555,
+      "sha256": "c2b8b2a93767cb1407325c4dbb31372eab9ba3deaf0d474fad810a5f1409951a"
+    },
     "beta/ui-preview/index.html": {
       "bytes": 356,
       "sha256": "e49659ffa1dce6dfd4b59ac537713233f7e3d010a7d20dba926e5e1bac3ce63c"
@@ -1571,8 +1575,8 @@
       "sha256": "db9f441934b0184780c96283979c0e1b8bf016c5339d26e92dbe753346d6a5af"
     },
     "index.html": {
-      "bytes": 1784,
-      "sha256": "e74f2e9eb8316e750ee71bf43ae3b462b8b0e45b0c3abd8d6e77dd1617541511"
+      "bytes": 3370,
+      "sha256": "9bd582de6f08d818d6d476c60b51093c51101a027b2b065b597f99c66fadb20d"
     },
     "legacy-1-3/ASSET_CREDITS.txt": {
       "bytes": 2443,
