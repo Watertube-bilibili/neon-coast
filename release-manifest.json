@@ -33,6 +33,11 @@
       "file": "neon-coast-beta1-delta-64961ba-03.zip",
       "bytes": 9792635,
       "sha256": "b13f4224144c2a843f36f6b554de9dd21c656765857bd711b4969085f7067d8a"
+    },
+    {
+      "file": "neon-coast-ui-preview-32115f3.zip",
+      "bytes": 78305,
+      "sha256": "299bbaddcfba231169ad3c271b38071acd32f5d575e8ed3e7c6d7dcb2cf44af1"
     }
   ],
   "files": {
@@ -1487,6 +1492,10 @@
     "world.js": {
       "bytes": 15160,
       "sha256": "615c6ebeadff337b59cc3d0bc96a6d06d432b08a3fce8ee4da28e0cb06624e78"
+    },
+    "beta/ui-preview/index.html": {
+      "bytes": 382347,
+      "sha256": "32115f350f220bd5f0647392302c14b3cd644c0f292b58388d9654f8c70ac96e"
     }
   }
 }
