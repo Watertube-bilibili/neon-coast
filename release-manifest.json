@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "originalSourceCommit": "57d02f618cf8c4e26a6338883900f68a4debf1a4",
+  "originalSourceCommit": "aba1ea3f135ce4d2946dde36bfe23cc6e53fab63",
   "formalVersion": "1.5 latest r9 + beta entry",
   "previewVersion": "2.0.0-beta.1 at /beta/",
   "archives": [
@@ -20,14 +20,14 @@
       "sha256": "20c913af683f7d8306f7c2ca731184d2ea12f1b2325089f984d1b69d24926c0f"
     },
     {
-      "file": "neon-coast-beta-gear-57d02f6-01.zip",
-      "bytes": 11196675,
-      "sha256": "3766a7e40e910ddd7214dfc06d867a7d3b17603470ac7979ab2e3bbd3b5b23ec"
+      "file": "neon-coast-beta-lazy-aba1ea3-01.zip",
+      "bytes": 11197074,
+      "sha256": "0f0d07cc44600d3b2a6097f2b7f837738cc3a0b451e1449041b25ca321277fa6"
     },
     {
-      "file": "neon-coast-beta-gear-57d02f6-02.zip",
-      "bytes": 9968307,
-      "sha256": "04ff70a8e6220dd6c3d9e5252da14d427fb9cac4ce69d63cafb67f48aaf9fd36"
+      "file": "neon-coast-beta-lazy-aba1ea3-02.zip",
+      "bytes": 9968187,
+      "sha256": "2e89082899d26cb6cc8e2ed1a68a4ae3e51e90ea012bef5a6f3e47a7e4ef7b54"
     },
     {
       "file": "neon-coast-beta1-delta-64961ba-03.zip",
@@ -110,8 +110,8 @@
       "sha256": "5b87db19cd99bb2c18e2d114c70f2d2c7d01aca42a016ac9ce8427a719a529b5"
     },
     "beta/play/asset-car.js": {
-      "bytes": 8415,
-      "sha256": "f237e927da8ce3edd19ccea7b0bafaa743c03faef79315f254d130bda7784918"
+      "bytes": 8599,
+      "sha256": "bd1fe9908924d9fc29b776a7edb27bc06758d69671f65f42ba1bd680f4adec8e"
     },
     "beta/play/assets/CC-BY-4.0.txt": {
       "bytes": 13034,
@@ -164,6 +164,10 @@
     "beta/play/assets/g9/xiangjie-g9-simple.glb": {
       "bytes": 994100,
       "sha256": "c0d3c2809f38587db656d5655b618f2518c7b16aa0f1cdb7756dde7e33a20605"
+    },
+    "beta/play/assets/lucent-preview.svg": {
+      "bytes": 401,
+      "sha256": "6b8eb4ba72e5bb658500cbdb6891daf39bad63350e4fcaf441fcc60dcebe3986"
     },
     "beta/play/assets/lucent-vision.glb": {
       "bytes": 11758564,
@@ -266,8 +270,8 @@
       "sha256": "8b110233010630787be38346f22cf7d63a77860744e0b12f6213c7e62a057f0c"
     },
     "beta/play/game.js": {
-      "bytes": 79210,
-      "sha256": "9d1419d12109422fcfa3b512bacd4b07423ee62f737c2fbfcf50735db96aaa7b"
+      "bytes": 79002,
+      "sha256": "581ab7a9dd6c50f9aef5b551202b7ceeb1daf73824731678ff39a6ca7476a4a1"
     },
     "beta/play/godot-physics.js": {
       "bytes": 18338,
@@ -570,8 +574,8 @@
       "sha256": "c8211c69345d2e9949dc7a8ac969380497aa0600a5a8ac6a459c8cd02dd9cb8a"
     },
     "beta/play/world.js": {
-      "bytes": 16612,
-      "sha256": "e33a78239bc9241f4e30d0adef110a4d9fc1ce4d7db2e3338e643269481d169d"
+      "bytes": 16409,
+      "sha256": "cea27bf7058e6614f663e342672b21f340d055b3e03806055d62d397d7f052ad"
     },
     "beta/ui-preview/index.html": {
       "bytes": 398643,
