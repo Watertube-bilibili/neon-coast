@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "originalSourceCommit": "64961baa662df2c6f99da0fbec5bd020abbe647c",
+  "originalSourceCommit": "b0f5100d8a22b8cb54f685196c4b7a410a96517d",
   "formalVersion": "1.5 latest r9 + beta entry",
   "previewVersion": "2.0.0-beta.1 at /beta/",
   "archives": [
@@ -20,14 +20,14 @@
       "sha256": "20c913af683f7d8306f7c2ca731184d2ea12f1b2325089f984d1b69d24926c0f"
     },
     {
-      "file": "neon-coast-beta1-delta-64961ba-01.zip",
-      "bytes": 11190096,
-      "sha256": "69a35cd4a911eed202bfecae19c43ad8141ee17ec23f90a055c52e84680da190"
+      "file": "neon-coast-beta-hud-b0f5100-01.zip",
+      "bytes": 11194326,
+      "sha256": "c6d60f6882e9556d5ffa349bcb5a8679c52eca62b960c49ef3e312d16529cdd6"
     },
     {
-      "file": "neon-coast-beta1-delta-64961ba-02.zip",
-      "bytes": 9967976,
-      "sha256": "da8ab74b800ca984d7c864d50e2b860bc866b01bc4d63b5fe242d87eacdc6b36"
+      "file": "neon-coast-beta-hud-b0f5100-02.zip",
+      "bytes": 9968267,
+      "sha256": "c7e2d020f79fd353b7c42db8c9f9fe401814b283e5bb7c3e5326e3b3aed79ebd"
     },
     {
       "file": "neon-coast-beta1-delta-64961ba-03.zip",
@@ -110,8 +110,8 @@
       "sha256": "5b87db19cd99bb2c18e2d114c70f2d2c7d01aca42a016ac9ce8427a719a529b5"
     },
     "beta/play/asset-car.js": {
-      "bytes": 8315,
-      "sha256": "38e9ea6b13ead819c7bd3931a5ef13321527f3e3cb348efab210141b7d22e833"
+      "bytes": 8415,
+      "sha256": "f237e927da8ce3edd19ccea7b0bafaa743c03faef79315f254d130bda7784918"
     },
     "beta/play/assets/CC-BY-4.0.txt": {
       "bytes": 13034,
@@ -233,6 +233,10 @@
       "bytes": 13701,
       "sha256": "5c4dd83780b417b6429b5b5cfe0ea2cf685455478b7f79c4dd226da647830d96"
     },
+    "beta/play/driving-hud.css": {
+      "bytes": 14530,
+      "sha256": "a03cdac029f9af33016715e026085f09de6388ce9844e4cfeef3038f2f9469e6"
+    },
     "beta/play/entry-animation.js": {
       "bytes": 11805,
       "sha256": "bff2d80a9826bb4aa6252c35a1b58bf31b2b292976522c6549e5be1b929df261"
@@ -262,12 +266,12 @@
       "sha256": "8b110233010630787be38346f22cf7d63a77860744e0b12f6213c7e62a057f0c"
     },
     "beta/play/game.js": {
-      "bytes": 78893,
-      "sha256": "f1b02d033a28f7242b0fee3da64fc7d8a681c316869c827cb54a24a01acc39d8"
+      "bytes": 79009,
+      "sha256": "4392f9fd5c5efe61e40de52c75016a603e4051c179c8b26e86887a784f4e60ef"
     },
     "beta/play/godot-physics.js": {
-      "bytes": 18253,
-      "sha256": "46033e09cd28ca4e19bce34d607e65da6d6b71c9647c1df8854bf610673bfe86"
+      "bytes": 18338,
+      "sha256": "79f242ae97089fa87445e1c8d7d76afb30014224e4d359bd6a4c6e98a93f2fde"
     },
     "beta/play/ground-contact.js": {
       "bytes": 13103,
@@ -278,8 +282,12 @@
       "sha256": "75d7d9a8970ff97b60a71581c781ee17f6f5d05fcb6f90e6980cc4a8aeae8f08"
     },
     "beta/play/index.html": {
-      "bytes": 8900,
-      "sha256": "37c0337d0d6de3207144b1a7f94abe31ef95503c5b378f2e731c0918539572fc"
+      "bytes": 9196,
+      "sha256": "ef378e171691f5d4040725bb4ccf8811ffda556eb458fb7c4fbb44f16649e5ea"
+    },
+    "beta/play/loading-progress.js": {
+      "bytes": 514,
+      "sha256": "97a7326e32aeb39c4b82e3bf217da411470e63191fbd7dfde05cd4acda73e0f3"
     },
     "beta/play/location-beacons.js": {
       "bytes": 2893,
@@ -302,8 +310,8 @@
       "sha256": "314e75bbee622011817ed55f5282b339ed51ee6f71b89cf0398e488c98cbd143"
     },
     "beta/play/mobile-ui.js": {
-      "bytes": 23904,
-      "sha256": "6b105c11b6cb39b27e0dc07800651400650447a36b2ebee2f6bb7e9cd094450b"
+      "bytes": 23926,
+      "sha256": "b1040fc04088cdb950ac5c9b1903c280b09b8e89ed4f412d01c5195c49abae69"
     },
     "beta/play/mountain-barriers.js": {
       "bytes": 1416,
@@ -342,12 +350,12 @@
       "sha256": "b0435e3b3e4e55238f05f4b306f30524a1b2e20147810d436eaa554fa6855c80"
     },
     "beta/play/physics/TRANSPORT-NOTICE.txt": {
-      "bytes": 359,
-      "sha256": "738843bc78650e869fcc713a29445510882f2369fd3a434ccab7b81cdec1dab2"
+      "bytes": 400,
+      "sha256": "830c57acae64f2225c7c244c0caaaac31620a554784648a053bd326cff4749d2"
     },
     "beta/play/physics/manifest.json": {
       "bytes": 2752,
-      "sha256": "ea794e1ec2fcd2f1e7b88fc159ac2412eb5d002c7c2a030c626d70bc2ea21355"
+      "sha256": "8d595a1f81ff0f7cea3eb3d7da26feee3f25cfc92f02a36cb86b2f536a16852d"
     },
     "beta/play/physics/neon-physics.audio.position.worklet.js": {
       "bytes": 2973,
@@ -358,8 +366,8 @@
       "sha256": "5b476a9c9ce642c0ee4256436d1bc31d9c38f868aca0f9a8e2a57c18d2dec2a3"
     },
     "beta/play/physics/neon-physics.js": {
-      "bytes": 317875,
-      "sha256": "a1b7d94c95d5789f1f08faee80ac7287928b7090d97eff1f0bc83e0fba5d97fd"
+      "bytes": 318577,
+      "sha256": "2edf27d9214d1507deff3660b760114a6793d56a9178b06aeb49c60dba73777a"
     },
     "beta/play/physics/neon-physics.pck": {
       "bytes": 51908,
@@ -530,8 +538,8 @@
       "sha256": "c38c8d322c987c06dc2465706b5aab5e697f0cdaa98ed2badea01a6621382e60"
     },
     "beta/play/vehicle-lights.js": {
-      "bytes": 9912,
-      "sha256": "adff00070ece24bc599e1e8d2b95dc019f082b33e9ae08bf463ba41474be0e36"
+      "bytes": 10743,
+      "sha256": "52c49146af811198164b2f025bf95a3a2598ac20fe8dc08dc08aa28aaa723a82"
     },
     "beta/play/vehicle-physics.js": {
       "bytes": 9932,
@@ -560,6 +568,10 @@
     "beta/play/world.js": {
       "bytes": 16612,
       "sha256": "e33a78239bc9241f4e30d0adef110a4d9fc1ce4d7db2e3338e643269481d169d"
+    },
+    "beta/ui-preview/index.html": {
+      "bytes": 382347,
+      "sha256": "32115f350f220bd5f0647392302c14b3cd644c0f292b58388d9654f8c70ac96e"
     },
     "beta-release-revision.json": {
       "bytes": 458,
@@ -1492,10 +1504,6 @@
     "world.js": {
       "bytes": 15160,
       "sha256": "615c6ebeadff337b59cc3d0bc96a6d06d432b08a3fce8ee4da28e0cb06624e78"
-    },
-    "beta/ui-preview/index.html": {
-      "bytes": 382347,
-      "sha256": "32115f350f220bd5f0647392302c14b3cd644c0f292b58388d9654f8c70ac96e"
     }
   }
 }
